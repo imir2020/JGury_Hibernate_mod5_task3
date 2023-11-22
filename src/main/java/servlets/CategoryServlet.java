@@ -15,13 +15,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 @WebServlet("/categories")
-public class CategoryServlet extends HttpServlet {
-    private final CategoryService categoryService = null;//CategoryService.getInstance();
+public class CategoryServlet  extends HttpServlet{//
+    private final CategoryService categoryService = CategoryService.getInstance();
 
-    @Override
+   // @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         resp.setContentType("text/html");
         resp.setCharacterEncoding(StandardCharsets.UTF_8.name());
+       // System.out.println(categoryService);
 
         try (var writer = resp.getWriter()) {
 
