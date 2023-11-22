@@ -11,31 +11,43 @@ import service.CategoryService;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 import java.util.List;
 
 @WebServlet("/categories")
 public class CategoryServlet extends HttpServlet {
-    private final CategoryService categoryService = CategoryService.getInstance();
+    private final CategoryService categoryService = null;//CategoryService.getInstance();
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
-        resp.setContentType("text/hml");
+        resp.setContentType("text/html");
         resp.setCharacterEncoding(StandardCharsets.UTF_8.name());
 
-        var writer = resp.getWriter();
-        writer.write("<h1>Список категорий товаров</h1>");
-        writer.write("<ul>");
-        categoryService.findAll().forEach(categoryDto ->
-                writer.write(
-                        """
-                                       <li>
-                                         <h1>
-                                         %d
-                                         %s
-                                         <br>
-                                         </h1>
-                                """.formatted(categoryDto.category(), categoryDto.categoryName())));
+        try (var writer = resp.getWriter()) {
 
-        writer.write("</ul>");
+            writer.write("<h1>Список категорий товаров</h1>");
+           // writer.write("<ul>");
+           // writer.write("<h2>Список товаров</h2>");
+           List<Integer> list = new ArrayList<>();
+            for (int i = 0; i < 10; i++) {
+                list.add(i);
+            }
+
+            list.stream().forEach(integer ->
+                    writer.write(
+                            """
+                                    <li>       
+                                    <h1>         
+                                    %s          
+                                    </h>
+                                    </li>
+                                    """.formatted(integer)));
+
+        }
+    }
+
+    public static void main(String[] args) {
+        CategoryService categoryService = CategoryService.getInstance();
+        System.out.println(categoryService);
     }
 }
