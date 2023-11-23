@@ -19,6 +19,7 @@ dto\CategoryDto.class
 entity\Ranks.class
 servlets\ProductServlet.class
 entity\Products.class
+utils\JspHelper.class
 servlets\SupplierServlet.class
 utils\StatementUtil.class
 dao\ProductsDao.class
