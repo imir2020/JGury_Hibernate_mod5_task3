@@ -16,12 +16,6 @@ public class ProductService {
         return INSTANCE;
     }
 
-    //    public ProductDto findById(Long id){
-//        return new ProductDto(productsDao.findById(id).get().getId(),
-//                ("%s-%s").formatted(productsDao.findById(id).get().getName(),
-//               String.valueOf(productsDao.findById(id).get().getCount())));
-//
-//    }
     public ProductDto findById(Long id) {
         return productsDao.findById(id).map(products ->
                 new ProductDto(products.getId(),

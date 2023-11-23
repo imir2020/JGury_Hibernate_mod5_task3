@@ -15,40 +15,33 @@ import java.util.ArrayList;
 import java.util.List;
 
 @WebServlet("/categories")
-public class CategoryServlet  extends HttpServlet{//
+public class CategoryServlet extends HttpServlet {
     private final CategoryService categoryService = CategoryService.getInstance();
 
-   // @Override
+    @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         resp.setContentType("text/html");
         resp.setCharacterEncoding(StandardCharsets.UTF_8.name());
-       // System.out.println(categoryService);
 
         try (var writer = resp.getWriter()) {
-
             writer.write("<h1>Список категорий товаров</h1>");
-           // writer.write("<ul>");
-           // writer.write("<h2>Список товаров</h2>");
-           List<Integer> list = new ArrayList<>();
-            for (int i = 0; i < 10; i++) {
-                list.add(i);
-            }
+            writer.write("<ul>");
 
-            list.stream().forEach(integer ->
+            categoryService.findAll().stream().forEach(categoryDto ->
                     writer.write(
                             """
-                                    <li>       
-                                    <h1>         
-                                    %s          
-                                    </h>
+                                    <li>
+                                    <h1>
+                                    %d
+                                    %s
+                                    </h1>
                                     </li>
-                                    """.formatted(integer)));
+                                    """.formatted(categoryDto.category(), categoryDto.categoryName())
+                    ));
+
+            writer.write("</ul>");
+
 
         }
-    }
-
-    public static void main(String[] args) {
-        CategoryService categoryService = CategoryService.getInstance();
-        System.out.println(categoryService);
     }
 }

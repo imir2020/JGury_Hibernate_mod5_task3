@@ -20,7 +20,7 @@ public class SupplierService {
     public List<SuppliersDto> findAll() {
         return supplierDao.findAll().stream().map(suppliers ->
                         new SuppliersDto(suppliers.getId(),
-                                ("%s: %s: %s: %s: ").formatted(
+                                ("%s| %s| %s| %s ").formatted(
                                         suppliers.getName(),
                                         suppliers.getAddress(),
                                         suppliers.getEmail(),
