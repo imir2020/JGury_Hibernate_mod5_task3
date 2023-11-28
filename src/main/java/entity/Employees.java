@@ -6,12 +6,10 @@ import java.sql.Timestamp;
 import java.time.LocalDate;
 import java.util.Date;
 
-@AllArgsConstructor
+@Data
 @NoArgsConstructor
-@Setter
-@Getter
-@ToString
-@EqualsAndHashCode
+@AllArgsConstructor
+@Builder
 public class Employees {
     private Long id;
     private String lastName;

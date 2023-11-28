@@ -12,6 +12,7 @@
     <title>Категории товаров</title>
 </head>
 <body>
+<%@include file="header.jsp"%>
 <ul>
     <c:forEach var="category" items="${categories}">
         <li> Номер: ${category.category()}, название: ${category.categoryName()}</li>

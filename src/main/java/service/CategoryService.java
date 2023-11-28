@@ -23,10 +23,4 @@ public class CategoryService {
                                 category.getCategoryName()))
                 .collect(Collectors.toList());
     }
-
-    public static void main(String[] args) {
-        CategoryService categoryService = CategoryService.getInstance();
-        categoryService.findAll().stream().forEach(System.out::println);
-    }
-
 }

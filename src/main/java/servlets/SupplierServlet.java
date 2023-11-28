@@ -19,7 +19,7 @@ public class SupplierServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
         var supplierList = suppliersService.findAll();
-        req.setAttribute("supplierLis", supplierList);
+        req.setAttribute("supplierList", supplierList);
         req.getRequestDispatcher(JspHelper.getPath("suppliers")).forward(req, resp);
     }
 }

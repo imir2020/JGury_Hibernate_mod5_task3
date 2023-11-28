@@ -12,8 +12,9 @@
     <title>Список поставщиков</title>
 </head>
 <body>
+<%@include file="header.jsp"%>
 <ul>
-    <c:forEach var="list" items="${supplierLis}">
+    <c:forEach var="list" items="${supplierList}">
     <li>Номер поставщика:  ${list.id()}   Данные поставщика:  ${list.description()} </li>
     </c:forEach>
 </ul>
