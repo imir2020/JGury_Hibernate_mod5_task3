@@ -47,7 +47,7 @@
 </form>
 <h2>Список работников:</h2>
 <c:forEach var="employee" items="${requestScope.allEmployees}">
-    <li>${employee.name}</li>
+    <li>${employee.lastName} ${employee.name} ${employee.middleName}</li>
 </c:forEach>
 <%@include file="header.jsp" %>
 <c:if test="${not empty requestScope.errors}">
