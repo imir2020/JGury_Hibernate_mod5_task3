@@ -1,18 +1,33 @@
 package entity;
 
+import jakarta.persistence.*;
 import lombok.*;
 
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Setter
-@Getter
-@ToString
-@EqualsAndHashCode
+@Builder
+@Entity
+@Table(name = "products")
 public class Products {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private Long supplierId;
+
+    @ManyToOne()
+    @JoinColumn(name = "supplier_id")
+    private Suppliers supplier;
+
+    @Column(name = "name")
     private String name;
+
+    @Column(name = "count")
     private Long count;
+
+    @Column(name = "price_for_one")
     private Long priceForOne;
-    private Long categoryId;
+
+    @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "category_id")
+    private Category category;
 }

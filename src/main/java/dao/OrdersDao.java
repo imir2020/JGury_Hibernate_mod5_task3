@@ -52,90 +52,85 @@ public class OrdersDao implements Dao<Long, Orders> {
         return INSTANCE;
     }
 
-    private Orders buildOrder(ResultSet result) throws SQLException {
-        return new Orders(
-                result.getLong("id"),
-                result.getLong("supplier_id"),
-                result.getString("name_product"),
-                result.getLong("count_product"),
-                result.getLong("price_product"),
-                (result.getTimestamp("date_order")).toLocalDateTime().toLocalDate()
-        );
-
-    }
+//    private Orders buildOrder(ResultSet result) throws SQLException {
+//        return new Orders(
+//                result.getLong("id"),
+//                result.getLong("supplier_id"),
+//                result.getString("name_product"),
+//                result.getLong("count_product"),
+//                result.getLong("price_product"),
+//                (result.getTimestamp("date_order")).toLocalDateTime().toLocalDate()
+//        );
+//
+//    }
 
     @Override
     public boolean update(Orders orders) {
-        try(var statement = StatementUtil.getStatement(UPDATE)) {
-            statement.setLong(1, orders.getSupplierId());
-            statement.setString(2, orders.getNameProduct());
-            statement.setLong(3, orders.getCountProduct());
-            statement.setLong(4, orders.getPriceProduct());
-            statement.setObject(5, orders.getDateOrder());
-            statement.setLong(6, orders.getId());
-            return statement.executeUpdate() > 0;
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+//        try(var statement = StatementUtil.getStatement(UPDATE)) {
+//            statement.setLong(1, orders.getSupplierId());
+//            statement.setString(2, orders.getNameProduct());
+//            statement.setLong(3, orders.getCountProduct());
+//            statement.setLong(4, orders.getPriceProduct());
+//            statement.setObject(5, orders.getDateOrder());
+//            statement.setLong(6, orders.getId());
+//            return statement.executeUpdate() > 0;
+//        } catch (SQLException e) {
+//            throw new RuntimeException(e);
+//        }
+        return false;
     }
 
     @Override
     public List<Orders> findAll() {
-        try(var statement = StatementUtil.getStatement(FIND_ALL)) {
-            List<Orders> orders = new ArrayList<>();
-            var result = statement.executeQuery();
 
-            while (result.next()) {
-                orders.add(buildOrder(result));
-            }
-            return orders;
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+        return null;
     }
 
     @Override
     public Optional<Orders> findById(Long id) {
-        try(var statement = StatementUtil.getStatement(FIND_BY_ID)) {
-            statement.setLong(1, id);
-            var result = statement.executeQuery();
-            Orders order = null;
-            if (result.next()) {
-                order = buildOrder(result);
-            }
-            return Optional.ofNullable(order);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+//        try(var statement = StatementUtil.getStatement(FIND_BY_ID)) {
+//            statement.setLong(1, id);
+//            var result = statement.executeQuery();
+//            Orders order = null;
+//            if (result.next()) {
+//                order = buildOrder(result);
+//            }
+//            return Optional.ofNullable(order);
+//        } catch (SQLException e) {
+//            throw new RuntimeException(e);
+//        }
+        return null;
     }
 
     @Override
     public Orders save(Orders orders) {
-        try(var statement = StatementUtil.getStatement(SAVE, Statement.RETURN_GENERATED_KEYS)) {
-            statement.setLong(1, orders.getSupplierId());
-            statement.setString(2, orders.getNameProduct());
-            statement.setLong(3, orders.getCountProduct());
-            statement.setLong(4, orders.getPriceProduct());
-            statement.setObject(5, orders.getDateOrder());
-            statement.executeUpdate();
-
-            var key = statement.getGeneratedKeys();
-            if (key.next()) {
-                orders.setId(key.getLong("id"));
-            }
-            return orders;
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+//        try(var statement = StatementUtil.getStatement(SAVE, Statement.RETURN_GENERATED_KEYS)) {
+//            statement.setLong(1, orders.getSupplierId());
+//            statement.setString(2, orders.getNameProduct());
+//            statement.setLong(3, orders.getCountProduct());
+//            statement.setLong(4, orders.getPriceProduct());
+//            statement.setObject(5, orders.getDateOrder());
+//            statement.executeUpdate();
+//
+//            var key = statement.getGeneratedKeys();
+//            if (key.next()) {
+//                orders.setId(key.getLong("id"));
+//            }
+//            return orders;
+//        } catch (SQLException e) {
+//            throw new RuntimeException(e);
+//        }
+        return null;
     }
 
     @Override
     public boolean delete(Long id) {
-        try( var statement = StatementUtil.getStatement(DELETE)) {
-            statement.setLong(1, id);
-            return statement.executeUpdate() > 0;
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+//        try( var statement = StatementUtil.getStatement(DELETE)) {
+//            statement.setLong(1, id);
+//            return statement.executeUpdate() > 0;
+//        } catch (SQLException e) {
+//            throw new RuntimeException(e);
+//        }
+        return false;
     }
 }

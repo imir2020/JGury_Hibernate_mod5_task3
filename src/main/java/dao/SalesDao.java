@@ -51,86 +51,83 @@ public class SalesDao implements Dao<Long, Sales> {
         return INSTANCE;
     }
 
-    private Sales buildSales(ResultSet result) throws SQLException {
-        return new Sales(
-                result.getLong("id"),
-                result.getLong("product_id"),
-                result.getLong("count"),
-                result.getLong("employee_id"),
-                (result.getTimestamp("date_sales")).toLocalDateTime().toLocalDate()
-        );
-    }
+//    private Sales buildSales(ResultSet result) throws SQLException {
+//        return new Sales(
+//                result.getLong("id"),
+//                result.getLong("product_id"),
+//                result.getLong("count"),
+//                result.getLong("employee_id"),
+//                (result.getTimestamp("date_sales")).toLocalDateTime().toLocalDate()
+//        );
+//    }
 
     @Override
     public boolean update(Sales sale) {
-        try (var statement = StatementUtil.getStatement(UPDATE)) {
-            statement.setLong(1, sale.getProductId());
-            statement.setLong(2, sale.getCount());
-            statement.setLong(3, sale.getEmployeeId());
-            statement.setObject(4, sale.getDateSales());
-            statement.setLong(5, sale.getId());
-            return statement.executeUpdate() > 0;
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+//        try (var statement = StatementUtil.getStatement(UPDATE)) {
+//            statement.setLong(1, sale.getProductId());
+//            statement.setLong(2, sale.getCount());
+//            statement.setLong(3, sale.getEmployeeId());
+//            statement.setObject(4, sale.getDateSales());
+//            statement.setLong(5, sale.getId());
+//            return statement.executeUpdate() > 0;
+//        } catch (SQLException e) {
+//            throw new RuntimeException(e);
+//        }
+        return false;
     }
 
     @Override
     public List<Sales> findAll() {
-        try (var statement = StatementUtil.getStatement(FIND_ALL)) {
-            List<Sales> sales = new ArrayList<>();
-            var result = statement.executeQuery();
-            while (result.next()) {
-                sales.add(buildSales(result));
-            }
-            return sales;
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+        return null;
     }
 
     @Override
     public Optional<Sales> findById(Long id) {
-        try (var statement = StatementUtil.getStatement(FIND_BY_ID)) {
-            statement.setLong(1, id);
-            var result = statement.executeQuery();
-            Sales sale = null;
-            if (result.next()) {
-                sale = buildSales(result);
-            }
-            return Optional.ofNullable(sale);
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+//        try (var statement = StatementUtil.getStatement(FIND_BY_ID)) {
+//            statement.setLong(1, id);
+//            var result = statement.executeQuery();
+//            Sales sale = null;
+//            if (result.next()) {
+//                sale = buildSales(result);
+//            }
+//            return Optional.ofNullable(sale);
+//        } catch (SQLException e) {
+//            throw new RuntimeException(e);
+//        }
+
+        return null;
     }
 
     @Override
     public Sales save(Sales sale) {
-        try (var statement = StatementUtil.getStatement(SAVE, Statement.RETURN_GENERATED_KEYS)) {
-
-            statement.setLong(1, sale.getProductId());
-            statement.setLong(2, sale.getCount());
-            statement.setLong(3, sale.getEmployeeId());
-            statement.setObject(4, sale.getDateSales());
-            statement.executeUpdate();
-
-            var key = statement.getGeneratedKeys();
-            if (key.next()) {
-                sale.setId(key.getLong("id"));
-            }
-            return sale;
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+//        try (var statement = StatementUtil.getStatement(SAVE, Statement.RETURN_GENERATED_KEYS)) {
+//
+//            statement.setLong(1, sale.getProductId());
+//            statement.setLong(2, sale.getCount());
+//            statement.setLong(3, sale.getEmployeeId());
+//            statement.setObject(4, sale.getDateSales());
+//            statement.executeUpdate();
+//
+//            var key = statement.getGeneratedKeys();
+//            if (key.next()) {
+//                sale.setId(key.getLong("id"));
+//            }
+//            return sale;
+//        } catch (SQLException e) {
+//            throw new RuntimeException(e);
+//        }
+    return null;
     }
 
     @Override
     public boolean delete(Long id) {
-        try (var statement = StatementUtil.getStatement(DELETE)) {
-            statement.setLong(1, id);
-            return statement.executeUpdate() > 0;
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
+//        try (var statement = StatementUtil.getStatement(DELETE)) {
+//            statement.setLong(1, id);
+//            return statement.executeUpdate() > 0;
+//        } catch (SQLException e) {
+//            throw new RuntimeException(e);
+//        }
+
+        return false;
     }
 }

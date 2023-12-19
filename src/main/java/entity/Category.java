@@ -1,16 +1,20 @@
 package entity;
 
 
+import jakarta.persistence.*;
 import lombok.*;
-import service.CategoryService;
 
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Setter
-@Getter
-@ToString
-@EqualsAndHashCode
+@Builder
+@Entity
+@Table(name = "category")
 public class Category {
-    private Long category;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "category_name")
     private String categoryName;
 }

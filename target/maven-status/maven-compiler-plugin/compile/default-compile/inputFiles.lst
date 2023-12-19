@@ -41,6 +41,7 @@ E:\ПРОГРАММИРОВАНИЕ\Проекты для обучения\Other
 E:\ПРОГРАММИРОВАНИЕ\Проекты для обучения\Other\Jguru_mod2_task3\src\main\java\dto\ProductDto.java
 E:\ПРОГРАММИРОВАНИЕ\Проекты для обучения\Other\Jguru_mod2_task3\src\main\java\entity\Category.java
 E:\ПРОГРАММИРОВАНИЕ\Проекты для обучения\Other\Jguru_mod2_task3\src\main\java\servlets\SessionServlet.java
+E:\ПРОГРАММИРОВАНИЕ\Проекты для обучения\Other\Jguru_mod2_task3\src\main\java\utils\HibernateUtil.java
 E:\ПРОГРАММИРОВАНИЕ\Проекты для обучения\Other\Jguru_mod2_task3\src\main\java\service\EmployeeService.java
 E:\ПРОГРАММИРОВАНИЕ\Проекты для обучения\Other\Jguru_mod2_task3\src\main\java\validator\Errors.java
 E:\ПРОГРАММИРОВАНИЕ\Проекты для обучения\Other\Jguru_mod2_task3\src\main\java\utils\JspHelper.java
@@ -49,7 +50,6 @@ E:\ПРОГРАММИРОВАНИЕ\Проекты для обучения\Other
 E:\ПРОГРАММИРОВАНИЕ\Проекты для обучения\Other\Jguru_mod2_task3\src\main\java\service\SupplierService.java
 E:\ПРОГРАММИРОВАНИЕ\Проекты для обучения\Other\Jguru_mod2_task3\src\main\java\entity\User.java
 E:\ПРОГРАММИРОВАНИЕ\Проекты для обучения\Other\Jguru_mod2_task3\src\main\java\validator\ValidationResult.java
-E:\ПРОГРАММИРОВАНИЕ\Проекты для обучения\Other\Jguru_mod2_task3\src\main\java\servlets\Test.java
 E:\ПРОГРАММИРОВАНИЕ\Проекты для обучения\Other\Jguru_mod2_task3\src\main\java\dto\CategoryDto.java
 E:\ПРОГРАММИРОВАНИЕ\Проекты для обучения\Other\Jguru_mod2_task3\src\main\java\entity\Orders.java
 E:\ПРОГРАММИРОВАНИЕ\Проекты для обучения\Other\Jguru_mod2_task3\src\main\java\exception\ValidationException.java

@@ -1,0 +1,1290 @@
+[2023-12-16 14:36:32,032] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 14:36:32,493] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 14:36:32,660] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 14:36:32,666] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 14:36:32,666] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 14:36:32,667] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 14:36:32,667] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 14:36:32,670] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 14:36:32,927] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 14:36:33,120] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 14:44:33,292] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 14:44:56,381] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 14:44:57,133] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 14:44:57,145] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 14:44:57,146] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 14:44:57,147] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 14:44:57,148] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 14:44:57,162] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 14:44:59,055] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 14:45:00,147] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 14:46:35,899] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 14:46:36,242] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 14:46:36,393] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 14:46:36,397] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 14:46:36,397] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 14:46:36,398] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 14:46:36,398] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 14:46:36,400] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 14:46:36,598] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 14:46:36,777] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 14:50:34,670] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 14:50:35,050] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 14:50:35,231] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 14:50:35,234] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 14:50:35,235] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 14:50:35,235] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 14:50:35,235] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 14:50:35,239] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 14:50:35,476] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 14:50:35,690] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 14:50:43,671] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 14:50:44,057] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 14:50:44,235] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 14:50:44,238] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 14:50:44,239] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 14:50:44,239] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 14:50:44,239] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 14:50:44,242] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 14:50:44,478] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 14:50:44,661] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 14:52:12,356] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 14:53:24,828] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 14:53:25,565] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 14:53:25,577] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 14:53:25,578] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 14:53:25,579] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 14:53:25,580] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 14:53:25,594] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 14:53:27,518] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 14:53:28,642] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 14:55:58,134] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 14:55:58,481] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 14:55:58,631] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 14:55:58,635] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 14:55:58,635] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 14:55:58,635] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 14:55:58,635] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 14:55:58,638] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 14:55:58,837] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 14:55:59,016] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 14:57:11,990] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 14:57:12,335] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 14:57:12,491] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 14:57:12,494] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 14:57:12,494] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 14:57:12,494] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 14:57:12,494] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 14:57:12,497] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 14:57:12,688] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 14:57:12,873] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:14:10,659] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 15:14:11,009] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 15:14:11,179] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 15:14:11,183] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 15:14:11,184] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:14:11,184] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 15:14:11,184] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 15:14:11,187] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 15:14:11,394] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 15:14:11,573] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:15:45,485] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 15:15:45,832] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 15:15:45,998] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 15:15:46,001] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 15:15:46,002] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:15:46,002] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 15:15:46,002] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 15:15:46,005] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 15:15:46,202] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 15:15:46,384] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:17:45,202] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 15:17:45,358] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 15:17:45,522] WARN [org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator: 196] HHH000181: No appropriate connection provider encountered, assuming application will be supplying connections
+[2023-12-16 15:17:45,525] WARN [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator: 239] HHH000342: Could not obtain connection to query metadata
+java.lang.UnsupportedOperationException: The application must supply JDBC connections
+	at org.hibernate.engine.jdbc.connections.internal.UserSuppliedConnectionProviderImpl.getConnection(UserSuppliedConnectionProviderImpl.java:44)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:284)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:177)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:36)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:255)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:230)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:44)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:218)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:191)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:138)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.build(MetadataBuildingProcess.java:97)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:402)
+	at org.hibernate.boot.internal.MetadataBuilderImpl.build(MetadataBuilderImpl.java:90)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:735)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:773)
+	at dao.CategoryDaoTest.findAll(CategoryDaoTest.java:22)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.junit.platform.launcher.core.SessionPerRequestLauncher.execute(SessionPerRequestLauncher.java:53)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:71)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+[2023-12-16 15:23:42,726] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 15:24:50,577] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 15:25:04,190] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 15:25:04,534] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 15:25:04,687] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 15:25:04,690] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 15:25:04,690] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:25:04,691] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 15:25:04,691] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 15:25:04,694] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 15:25:04,894] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 15:25:05,077] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:38:30,943] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 15:38:31,285] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 15:38:31,431] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 15:38:31,434] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 15:38:31,434] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:38:31,435] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 15:38:31,435] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 15:38:31,437] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 15:38:31,632] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 15:38:31,805] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:42:02,822] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 15:42:03,322] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 15:42:03,325] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 15:42:03,325] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:42:03,325] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 15:42:03,325] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 15:42:03,328] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 15:42:03,527] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 15:42:04,150] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-16 15:42:04,188] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:43:29,548] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 15:43:30,143] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 15:43:30,147] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 15:43:30,147] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:43:30,147] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 15:43:30,147] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 15:43:30,149] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 15:43:30,359] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 15:43:31,007] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-16 15:43:31,229] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:53:05,156] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 15:53:05,504] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 15:53:05,671] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 15:53:05,675] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 15:53:05,675] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:53:05,676] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 15:53:05,676] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 15:53:05,679] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 15:53:05,881] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 15:53:06,065] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:54:44,927] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 15:54:45,267] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 15:54:45,446] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 15:54:45,451] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 15:54:45,451] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:54:45,452] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 15:54:45,452] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 15:54:45,455] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 15:54:45,697] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 15:54:45,909] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:56:54,264] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 15:56:54,635] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 15:56:54,789] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 15:56:54,793] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 15:56:54,794] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:56:54,794] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 15:56:54,794] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 15:56:54,797] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 15:56:54,995] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 15:56:55,177] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:58:07,785] INFO [org.testng.internal.Utils: 112] [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IntelliJIdea2021.3\temp-testng-customsuite.xml
+
+[2023-12-16 15:58:07,886] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 15:58:08,208] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 15:58:08,302] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 15:58:08,305] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 15:58:08,305] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 15:58:08,305] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 15:58:08,305] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 15:58:08,307] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 15:58:08,490] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 15:58:08,673] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 18:49:10,994] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 18:49:11,362] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 18:49:11,528] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 18:49:11,531] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 18:49:11,532] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 18:49:11,532] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 18:49:11,532] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 18:49:11,535] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 18:49:11,744] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 18:49:11,926] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 19:06:44,944] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 19:06:45,436] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 19:06:45,440] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 19:06:45,440] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 19:06:45,440] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 19:06:45,440] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 19:06:45,443] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 19:06:45,660] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 19:06:46,300] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-16 19:06:46,510] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 19:07:10,019] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 19:07:10,526] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 19:07:10,530] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 19:07:10,530] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 19:07:10,530] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 19:07:10,530] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 19:07:10,532] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 19:07:10,743] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 19:07:11,385] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-16 19:07:11,601] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 19:10:57,262] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 19:10:57,601] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 19:10:57,758] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 19:12:10,492] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 19:12:10,881] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 19:12:11,029] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 19:12:41,896] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 19:12:42,274] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 19:12:42,435] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 19:16:32,819] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 19:16:33,334] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 19:16:33,337] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 19:16:33,337] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 19:16:33,337] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 19:16:33,338] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 19:16:33,340] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 19:16:33,563] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 19:16:34,185] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-16 19:16:34,397] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 19:34:29,217] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 19:34:29,563] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 19:34:29,727] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 19:34:29,730] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 19:34:29,731] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 19:34:29,731] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 19:34:29,731] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 19:34:29,733] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 19:34:29,931] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 19:34:30,117] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 19:37:05,562] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 19:37:05,909] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 19:37:06,076] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 19:37:06,079] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 19:37:06,080] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 19:37:06,080] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 19:37:06,080] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 19:37:06,083] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 19:37:06,280] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 19:37:06,463] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 19:41:10,143] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 19:44:41,251] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 19:45:55,099] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 19:45:55,849] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 19:45:55,861] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 19:45:55,861] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 19:45:55,863] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 19:45:55,863] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 19:45:55,878] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 19:45:57,776] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 19:46:50,004] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 19:46:58,431] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 19:46:59,191] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 19:46:59,202] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 19:46:59,203] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 19:46:59,204] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 19:46:59,205] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 19:46:59,219] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 19:47:01,176] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 19:48:26,141] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 19:48:26,519] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 19:48:26,672] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 19:48:26,676] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 19:48:26,677] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 19:48:26,677] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 19:48:26,677] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 19:48:26,680] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 19:48:26,903] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 19:55:19,293] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 19:55:19,817] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 19:55:19,821] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 19:55:19,821] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 19:55:19,821] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 19:55:19,821] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 19:55:19,824] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 19:55:20,029] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 19:55:20,684] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 51] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-16 19:55:20,890] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 20:05:52,641] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 20:05:52,994] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 20:05:53,149] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 20:05:53,153] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 20:05:53,153] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 20:05:53,153] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 20:05:53,154] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 20:05:53,156] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 20:05:53,352] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 20:05:53,534] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 20:11:32,230] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 20:11:32,621] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 20:11:32,776] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 20:11:32,780] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 20:11:32,780] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 20:11:32,780] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 20:11:32,780] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 20:11:32,783] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 20:11:32,987] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 20:11:33,180] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 20:13:39,792] INFO [org.testng.internal.Utils: 112] [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IntelliJIdea2021.3\temp-testng-customsuite.xml
+
+[2023-12-16 20:13:39,915] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 20:13:40,276] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 20:13:40,371] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 20:13:40,375] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 20:13:40,376] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 20:13:40,376] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 20:13:40,377] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 20:13:40,379] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 20:13:40,587] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 20:13:40,780] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 21:18:41,949] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 21:18:42,325] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 21:18:42,488] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 21:18:42,492] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 21:18:42,492] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 21:18:42,493] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 21:18:42,493] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 21:18:42,496] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 21:18:42,691] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 21:18:42,865] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 21:23:48,074] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 21:23:48,427] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 21:23:48,589] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 21:23:48,592] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 21:23:48,593] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 21:23:48,593] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 21:23:48,593] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 21:23:48,596] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 21:23:48,802] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 21:23:48,986] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 21:25:55,243] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 21:25:55,616] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 21:25:55,786] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 21:25:55,789] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 21:25:55,790] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 21:25:55,790] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 21:25:55,790] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 21:25:55,793] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 21:25:55,992] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 21:25:56,177] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 22:01:12,528] INFO [org.testng.internal.Utils: 112] [TestNG] Running:
+  C:\Users\Admin\AppData\Local\JetBrains\IntelliJIdea2021.3\temp-testng-customsuite.xml
+
+[2023-12-16 22:01:12,652] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 6.1.7.Final
+[2023-12-16 22:01:12,998] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-16 22:01:13,092] WARN [org.hibernate.orm.connections.pooling: 80] HHH10001002: Using built-in connection pool (not intended for production use)
+[2023-12-16 22:01:13,095] INFO [org.hibernate.orm.connections.pooling: 139] HHH10001005: Loaded JDBC driver class: org.postgresql.Driver
+[2023-12-16 22:01:13,095] INFO [org.hibernate.orm.connections.pooling: 161] HHH10001012: Connecting with JDBC URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-16 22:01:13,096] INFO [org.hibernate.orm.connections.pooling: 170] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-16 22:01:13,096] INFO [org.hibernate.orm.connections.pooling: 174] HHH10001003: Autocommit mode: false
+[2023-12-16 22:01:13,098] INFO [org.hibernate.orm.connections.pooling: 366] HHH10001115: Connection pool size: 20 (min=1)
+[2023-12-16 22:01:13,297] INFO [SQL dialect: 66] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-16 22:01:13,484] INFO [org.hibernate.orm.connections.pooling: 608] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 19:14:26,739] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 19:14:27,122] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 19:14:27,260] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 19:14:27,263] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 19:14:27,263] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 19:14:27,264] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 19:14:27,266] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 19:14:27,451] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-18 19:14:27,481] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 19:14:27,973] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 19:14:28,094] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:14:48,689] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:14:49,067] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:14:49,212] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:14:49,215] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:14:49,216] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:14:49,216] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:14:49,219] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:14:49,388] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-18 21:14:49,418] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:14:49,897] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:14:49,969] INFO [info: 37] this is category exampleCategory(category=2, categoryName=Шоколадные изделия)
+[2023-12-18 21:14:49,977] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:19:58,239] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:19:58,617] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:19:58,765] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:19:58,769] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:19:58,769] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:19:58,769] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:19:58,772] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:19:58,944] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-18 21:19:58,972] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:19:59,456] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:19:59,521] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-18 21:19:59,522] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "category" отношения "category" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Питьевая вода).
+[2023-12-18 21:19:59,525] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:21:39,121] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:21:39,505] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:21:39,634] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:21:39,638] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:21:39,638] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:21:39,639] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:21:39,642] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:21:39,821] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-18 21:21:39,851] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:21:40,330] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:21:40,394] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-18 21:21:40,395] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "category" отношения "category" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Питьевая вода).
+[2023-12-18 21:21:40,398] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:29:37,893] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:29:38,311] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:29:38,456] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:29:38,462] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:29:38,463] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:29:38,463] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:29:38,466] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:29:38,648] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-18 21:29:38,680] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:29:39,189] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:29:39,257] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-18 21:29:39,257] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "id" отношения "category" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Питьевая вода).
+[2023-12-18 21:29:39,260] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:32:59,674] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:33:00,039] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:33:00,195] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:33:00,198] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:33:00,199] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:33:00,199] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:33:00,202] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:33:00,376] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-18 21:33:00,406] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:33:00,893] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:33:00,957] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-18 21:33:00,957] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "id" отношения "category" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Питьевая вода).
+[2023-12-18 21:33:00,960] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:34:26,260] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:34:26,627] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:34:26,772] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:34:26,776] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:34:26,776] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:34:26,777] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:34:26,779] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:34:26,953] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-18 21:34:26,980] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:34:27,456] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:34:27,520] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-18 21:34:27,520] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "id" отношения "category" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Питьевая вода).
+[2023-12-18 21:34:27,523] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:35:02,912] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:35:03,296] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:35:03,440] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:35:03,445] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:35:03,445] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:35:03,446] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:35:03,450] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:35:03,641] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-18 21:35:03,670] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:35:04,145] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:35:04,210] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-18 21:35:04,211] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "id" отношения "category" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Питьевая вода).
+[2023-12-18 21:35:04,214] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:36:16,325] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:36:16,712] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:36:16,845] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:36:16,849] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:36:16,849] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:36:16,849] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:36:16,852] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:36:17,025] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-12-18 21:36:17,052] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:36:17,550] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:36:17,614] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-18 21:36:17,614] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "id" отношения "category" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Питьевая вода).
+[2023-12-18 21:36:17,617] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:38:39,104] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:38:39,521] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:38:39,652] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:38:39,658] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:38:39,658] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:38:39,659] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:38:39,662] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:38:39,849] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-18 21:38:39,879] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:38:40,571] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:38:40,640] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-18 21:38:40,640] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "id" отношения "category" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Питьевая вода).
+[2023-12-18 21:38:40,644] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:38:53,318] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:38:53,690] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:38:53,830] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:38:53,834] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:38:53,834] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:38:53,834] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:38:53,838] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:38:54,017] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-18 21:38:54,043] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:38:54,522] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:38:54,589] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-18 21:38:54,589] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "id" отношения "category" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Питьевая вода).
+[2023-12-18 21:38:54,592] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:42:39,276] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:42:39,684] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:42:39,813] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:42:39,817] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:42:39,817] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:42:39,817] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:42:39,820] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:42:39,997] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-18 21:42:40,027] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:42:40,509] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:42:40,580] INFO [info: 38] this is category example Category(id=2, categoryName=Шоколадные изделия)
+[2023-12-18 21:42:40,589] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:43:28,831] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:43:29,326] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:43:29,502] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:43:29,505] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:43:29,506] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:43:29,506] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:43:29,510] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:43:29,719] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-18 21:43:29,746] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:43:30,280] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:44:01,091] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-18 21:44:01,092] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "id" отношения "category" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Питьевая вода).
+[2023-12-18 21:44:16,829] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:45:58,828] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:45:59,187] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:45:59,325] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:45:59,330] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:45:59,330] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:45:59,330] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:45:59,333] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:45:59,507] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-18 21:45:59,535] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:46:00,016] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:46:00,083] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-18 21:46:00,083] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "id" отношения "category" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Питьевая вода).
+[2023-12-18 21:46:00,086] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:51:23,520] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:51:23,890] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:51:24,038] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:51:24,041] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:51:24,042] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:51:24,042] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:51:24,046] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:51:24,219] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-18 21:51:24,247] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:51:24,736] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:51:24,800] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-18 21:51:24,800] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "id" отношения "category" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Питьевая вода).
+[2023-12-18 21:51:24,805] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:51:53,637] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:51:53,995] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:51:54,127] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:51:54,130] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:51:54,131] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:51:54,131] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:51:54,134] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:51:54,303] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-18 21:51:54,333] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:51:54,812] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:51:54,857] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:55:47,596] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:55:47,958] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:55:48,097] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:55:48,101] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:55:48,102] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:55:48,102] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:55:48,106] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:55:48,276] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-18 21:55:48,306] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:55:48,780] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:55:48,845] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-18 21:55:48,845] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "id" отношения "category" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Питьевая вода).
+[2023-12-18 21:55:48,848] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:56:18,705] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:56:19,070] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:56:19,201] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:56:19,204] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:56:19,205] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:56:19,205] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:56:19,208] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:56:19,398] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-18 21:56:19,428] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:56:19,907] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:56:19,977] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-18 21:56:19,977] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "id" отношения "category" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Питьевая вода).
+[2023-12-18 21:56:19,980] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:58:20,842] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:58:21,257] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:58:21,399] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:58:21,403] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:58:21,403] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:58:21,404] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:58:21,407] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:58:21,597] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-18 21:58:21,630] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:58:22,136] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:58:22,220] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:59:45,987] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-18 21:59:46,369] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-18 21:59:46,521] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-18 21:59:46,526] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-18 21:59:46,527] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-18 21:59:46,527] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-18 21:59:46,530] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-18 21:59:46,714] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-18 21:59:46,745] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-18 21:59:47,214] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-18 21:59:47,288] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 15:25:20,830] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 15:25:21,339] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 15:25:21,494] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 15:25:21,499] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 15:25:21,499] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 15:25:21,500] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 15:25:21,502] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 15:25:21,716] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 15:25:21,749] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 15:25:22,328] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 15:25:22,478] INFO [EmployeesDaoTest: 21] Result list from method findAll(): [Employees(id=1, lastName=Ivanov, name=Oleg, middleName=Ivanovich, dateBirth=1992-11-21, phoneNumber=8-911-432-89-61, address=Moskow, Novyi Arbat 22, kv.2555, ranks=Ranks(id=1, rankName=Manager, salary=80000)), Employees(id=2, lastName=Sergeev, name=Kirill, middleName=Antonovich, dateBirth=1994-09-11, phoneNumber=8-925-444-89-17, address=Moskow, Komissarov 125, kv.800, ranks=Ranks(id=2, rankName=Employee, salary=50000)), Employees(id=3, lastName=Иванов, name=Сергей, middleName=Вадимович, dateBirth=1990-05-17, phoneNumber=8-933-555-55-55, address=Владивосток, Красная 54, кв.3421, ranks=Ranks(id=1, rankName=Manager, salary=80000)), Employees(id=5, lastName=TTT, name=VVV, middleName=FFF, dateBirth=2011-01-01, phoneNumber=888, address=RRR, ranks=Ranks(id=2, rankName=Employee, salary=50000)), Employees(id=6, lastName=Filatov, name=Evgeniy, middleName=Vasilievich, dateBirth=1994-12-02, phoneNumber=8(936)-512-38-74, address=Ectb, Stroitiley 125, d 14, corp4, kv 98, ranks=Ranks(id=1, rankName=Manager, salary=80000)), Employees(id=7, lastName=Tolstoy, name=Lev, middleName=Anatolievich, dateBirth=1905-05-19, phoneNumber=8(977)-55538-55, address=SPB, ranks=Ranks(id=1, rankName=Manager, salary=80000)), Employees(id=8, lastName=Filatov, name=Ivan, middleName=Vasilievich, dateBirth=1975-03-02, phoneNumber=8(936)-512-38-74, address=Ectb, Stroitiley 125, d 14, corp4, kv 98, ranks=Ranks(id=2, rankName=Employee, salary=50000))]
+[2023-12-19 15:25:22,487] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 15:26:42,320] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 15:26:42,666] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 15:26:42,806] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 15:26:42,810] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 15:26:42,811] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 15:26:42,811] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 15:26:42,815] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 15:26:43,011] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 15:26:43,041] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 15:26:43,527] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 15:26:43,656] INFO [Emp: 21] Result list from method findAll(): [Employees(id=1, lastName=Ivanov, name=Oleg, middleName=Ivanovich, dateBirth=1992-11-21, phoneNumber=8-911-432-89-61, address=Moskow, Novyi Arbat 22, kv.2555, ranks=Ranks(id=1, rankName=Manager, salary=80000)), Employees(id=2, lastName=Sergeev, name=Kirill, middleName=Antonovich, dateBirth=1994-09-11, phoneNumber=8-925-444-89-17, address=Moskow, Komissarov 125, kv.800, ranks=Ranks(id=2, rankName=Employee, salary=50000)), Employees(id=3, lastName=Иванов, name=Сергей, middleName=Вадимович, dateBirth=1990-05-17, phoneNumber=8-933-555-55-55, address=Владивосток, Красная 54, кв.3421, ranks=Ranks(id=1, rankName=Manager, salary=80000)), Employees(id=5, lastName=TTT, name=VVV, middleName=FFF, dateBirth=2011-01-01, phoneNumber=888, address=RRR, ranks=Ranks(id=2, rankName=Employee, salary=50000)), Employees(id=6, lastName=Filatov, name=Evgeniy, middleName=Vasilievich, dateBirth=1994-12-02, phoneNumber=8(936)-512-38-74, address=Ectb, Stroitiley 125, d 14, corp4, kv 98, ranks=Ranks(id=1, rankName=Manager, salary=80000)), Employees(id=7, lastName=Tolstoy, name=Lev, middleName=Anatolievich, dateBirth=1905-05-19, phoneNumber=8(977)-55538-55, address=SPB, ranks=Ranks(id=1, rankName=Manager, salary=80000)), Employees(id=8, lastName=Filatov, name=Ivan, middleName=Vasilievich, dateBirth=1975-03-02, phoneNumber=8(936)-512-38-74, address=Ectb, Stroitiley 125, d 14, corp4, kv 98, ranks=Ranks(id=2, rankName=Employee, salary=50000))]
+[2023-12-19 15:26:43,666] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 15:26:59,867] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 15:27:00,232] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 15:27:00,357] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 15:27:00,361] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 15:27:00,362] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 15:27:00,362] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 15:27:00,366] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 15:27:00,546] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 15:27:00,574] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 15:27:01,060] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 15:27:01,185] INFO [EmployeesDaoTest: 21] Result list from method findAll(): [Employees(id=1, lastName=Ivanov, name=Oleg, middleName=Ivanovich, dateBirth=1992-11-21, phoneNumber=8-911-432-89-61, address=Moskow, Novyi Arbat 22, kv.2555, ranks=Ranks(id=1, rankName=Manager, salary=80000)), Employees(id=2, lastName=Sergeev, name=Kirill, middleName=Antonovich, dateBirth=1994-09-11, phoneNumber=8-925-444-89-17, address=Moskow, Komissarov 125, kv.800, ranks=Ranks(id=2, rankName=Employee, salary=50000)), Employees(id=3, lastName=Иванов, name=Сергей, middleName=Вадимович, dateBirth=1990-05-17, phoneNumber=8-933-555-55-55, address=Владивосток, Красная 54, кв.3421, ranks=Ranks(id=1, rankName=Manager, salary=80000)), Employees(id=5, lastName=TTT, name=VVV, middleName=FFF, dateBirth=2011-01-01, phoneNumber=888, address=RRR, ranks=Ranks(id=2, rankName=Employee, salary=50000)), Employees(id=6, lastName=Filatov, name=Evgeniy, middleName=Vasilievich, dateBirth=1994-12-02, phoneNumber=8(936)-512-38-74, address=Ectb, Stroitiley 125, d 14, corp4, kv 98, ranks=Ranks(id=1, rankName=Manager, salary=80000)), Employees(id=7, lastName=Tolstoy, name=Lev, middleName=Anatolievich, dateBirth=1905-05-19, phoneNumber=8(977)-55538-55, address=SPB, ranks=Ranks(id=1, rankName=Manager, salary=80000)), Employees(id=8, lastName=Filatov, name=Ivan, middleName=Vasilievich, dateBirth=1975-03-02, phoneNumber=8(936)-512-38-74, address=Ectb, Stroitiley 125, d 14, corp4, kv 98, ranks=Ranks(id=2, rankName=Employee, salary=50000))]
+[2023-12-19 15:27:01,195] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 15:51:50,682] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 15:51:51,046] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 15:51:51,181] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 15:51:51,190] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 15:51:51,190] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 15:51:51,191] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 15:51:51,196] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 15:51:51,385] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 15:51:51,417] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 15:51:51,905] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 15:51:51,977] INFO [EmployeesDaoTest: 30] Object employees from method findById(): Employees(id=6, lastName=Filatov, name=Evgeniy, middleName=Vasilievich, dateBirth=1994-12-02, phoneNumber=8(936)-512-38-74, address=Ectb, Stroitiley 125, d 14, corp4, kv 98, ranks=Ranks(id=1, rankName=Manager, salary=80000))
+[2023-12-19 15:51:51,987] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 16:07:17,133] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 16:07:17,487] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 16:07:17,609] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 16:07:17,612] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 16:07:17,613] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 16:07:17,613] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 16:07:17,615] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 16:07:17,795] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 16:07:17,824] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 16:07:18,297] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 16:07:18,384] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-19 16:07:18,384] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "phone_number" отношения "employees" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (9, Tunov, Alex, Sadyikov, 1990-03-29, null, Vladivostok, veteranov 54,d 6,corp 9, kv 100, 1).
+[2023-12-19 16:07:18,387] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 16:08:14,717] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 16:08:15,084] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 16:08:15,231] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 16:08:15,236] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 16:08:15,236] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 16:08:15,236] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 16:08:15,239] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 16:08:15,431] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 16:08:15,463] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 16:08:15,942] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 16:08:16,024] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 16:09:59,748] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 16:10:00,128] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 16:10:00,273] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 16:10:00,280] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 16:10:00,280] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 16:10:00,280] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 16:10:00,283] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 16:10:00,476] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 16:10:00,504] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 16:10:00,986] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 16:10:01,065] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 16:15:48,293] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 16:15:48,656] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 16:15:48,786] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 16:15:48,790] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 16:15:48,791] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 16:15:48,791] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 16:15:48,793] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 16:15:48,970] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 16:15:48,998] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 16:15:49,478] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 16:15:49,548] INFO [EmployeesDaoTest: 66] Object from method update() is updated: Employees(id=10, lastName=Tunov, name=Alex, middleName=Sadyikov, dateBirth=1990-03-29, phoneNumber=8-992-456-10-00, address=Vladivostok, veteranov 54,d 6,corp 9, kv 100, rank=Ranks(id=1, rankName=Manager, salary=80000))
+[2023-12-19 16:15:49,572] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 16:16:57,489] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 16:16:57,906] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 16:16:58,055] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 16:16:58,058] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 16:16:58,059] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 16:16:58,059] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 16:16:58,062] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 16:16:58,235] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 16:16:58,266] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 16:16:58,732] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 16:16:58,823] INFO [EmployeesDaoTest: 67] Object from method update() is updated: Employees(id=10, lastName=Tunov, name=Alex, middleName=Sadyikov, dateBirth=1990-03-29, phoneNumber=8-992-555-10-00, address=Vladivostok, veteranov 54,d 6,corp 9, kv 100, rank=Ranks(id=1, rankName=Manager, salary=80000))
+[2023-12-19 16:16:58,824] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 16:52:01,210] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 16:52:01,584] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 16:52:01,720] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 16:52:01,723] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 16:52:01,724] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 16:52:01,724] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 16:52:01,727] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 16:52:01,900] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 16:52:01,930] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 16:52:02,411] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 16:52:02,501] WARN [EmployeesDaoTest: 78] Object was deleted in method delete(): Employees(id=10, lastName=Tunov, name=Alex, middleName=Sadyikov, dateBirth=1990-03-29, phoneNumber=8-992-555-10-00, address=Vladivostok, veteranov 54,d 6,corp 9, kv 100, rank=Ranks(id=1, rankName=Manager, salary=80000))
+[2023-12-19 16:52:02,501] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 16:52:39,167] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 16:52:39,533] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 16:52:39,662] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 16:52:39,666] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 16:52:39,667] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 16:52:39,667] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 16:52:39,670] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 16:52:39,852] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 16:52:39,880] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 16:52:40,357] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 16:52:40,442] INFO [EmployeesDaoTest: 55] Object from method save() is saved: Employees(id=12, lastName=Tunov, name=Vadim, middleName=Sadyikov, dateBirth=1990-03-29, phoneNumber=8-992-456-91-00, address=Vladivostok, veteranov 54,d 6,corp 9, kv 100, rank=Ranks(id=2, rankName=Employee, salary=50000))
+[2023-12-19 16:52:40,444] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 16:53:44,969] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 16:53:45,334] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 16:53:45,464] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 16:53:45,468] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 16:53:45,468] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 16:53:45,468] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 16:53:45,471] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 16:53:45,659] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 16:53:45,689] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 16:53:46,172] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 16:53:46,264] INFO [EmployeesDaoTest: 68] Object from method update() is updated: Employees(id=12, lastName=Tunov, name=Leonid, middleName=Sadyikov, dateBirth=1990-03-29, phoneNumber=8-992-555-10-00, address=Vladivostok, veteranov 54,d 6,corp 9, kv 100, rank=Ranks(id=2, rankName=Employee, salary=50000))
+[2023-12-19 16:53:46,265] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 17:14:25,241] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 17:14:25,604] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 17:14:25,750] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 17:14:25,754] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 17:14:25,755] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 17:14:25,755] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 17:14:25,758] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 17:14:25,957] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 17:14:25,987] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 17:14:26,480] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 17:14:26,612] INFO [ProductsDaoTest: 22] This is list of products from method findAll(): [Products(id=1, supplier=Suppliers(id=1, name=Horns&&Hoofs, address=Perm, commi 35, email=horn@gmail.com, phoneNumber=8-988-342-65-98), name=horns, count=400, priceForOne=100, category=null), Products(id=2, supplier=Suppliers(id=1, name=Horns&&Hoofs, address=Perm, commi 35, email=horn@gmail.com, phoneNumber=8-988-342-65-98), name=Шоколад, count=5000, priceForOne=150, category=Category(id=2, categoryName=Шоколадные изделия))]
+[2023-12-19 17:14:26,613] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 17:14:55,422] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 17:14:55,782] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 17:14:55,919] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 17:14:55,925] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 17:14:55,925] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 17:14:55,925] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 17:14:55,928] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 17:14:56,110] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 17:14:56,136] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 17:14:56,622] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 17:14:56,755] INFO [ProductsDaoTest: 22] This is list of products from method findAll(): [Products(id=1, supplier=Suppliers(id=1, name=Horns&&Hoofs, address=Perm, commi 35, email=horn@gmail.com, phoneNumber=8-988-342-65-98), name=horns, count=400, priceForOne=100, category=null), Products(id=2, supplier=Suppliers(id=1, name=Horns&&Hoofs, address=Perm, commi 35, email=horn@gmail.com, phoneNumber=8-988-342-65-98), name=Шоколад, count=5000, priceForOne=150, category=Category(id=2, categoryName=Шоколадные изделия))]
+[2023-12-19 17:14:56,756] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 17:15:09,117] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 17:15:09,500] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 17:15:09,637] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 17:15:09,641] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 17:15:09,641] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 17:15:09,641] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 17:15:09,644] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 17:15:09,835] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 17:15:09,864] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 17:15:10,347] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 17:15:10,481] INFO [ProductsDaoTest: 22] This is list of products from method findAll(): [Products(id=1, supplier=Suppliers(id=1, name=Horns&&Hoofs, address=Perm, commi 35, email=horn@gmail.com, phoneNumber=8-988-342-65-98), name=horns, count=400, priceForOne=100, category=null), Products(id=2, supplier=Suppliers(id=1, name=Horns&&Hoofs, address=Perm, commi 35, email=horn@gmail.com, phoneNumber=8-988-342-65-98), name=Шоколад, count=5000, priceForOne=150, category=Category(id=2, categoryName=Шоколадные изделия))]
+[2023-12-19 17:15:10,483] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 17:18:44,743] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 17:18:45,128] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 17:18:45,257] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 17:18:45,261] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 17:18:45,262] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 17:18:45,262] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 17:18:45,265] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 17:18:45,438] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 17:18:45,467] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 17:18:45,950] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 17:18:46,031] INFO [ProductsDaoTest: 31] Object from method findBuId(): Products(id=1, supplier=Suppliers(id=1, name=Horns&&Hoofs, address=Perm, commi 35, email=horn@gmail.com, phoneNumber=8-988-342-65-98), name=horns, count=400, priceForOne=100, category=null)
+[2023-12-19 17:18:46,032] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 17:40:23,415] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 17:40:23,806] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 17:40:23,948] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 17:40:23,953] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 17:40:23,954] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 17:40:23,955] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 17:40:23,958] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 17:40:24,154] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 17:40:24,183] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 17:40:24,686] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 17:40:24,766] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 17:41:30,993] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 17:41:31,347] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 17:41:31,484] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 17:41:31,487] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 17:41:31,488] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 17:41:31,488] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 17:41:31,490] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 17:41:31,667] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 17:41:31,694] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 17:41:32,189] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 17:41:32,279] INFO [ProductsDaoTest: 60] Object was saved in method save(): Products(id=4, supplier=Suppliers(id=4, name=Beaks&&Feathers, address=Unknown, email=beak@gmail.com, phoneNumber=1-111-111-11-99), name=Мясо, count=125, priceForOne=500, category=Category(id=3, categoryName=Мясо))
+[2023-12-19 17:41:32,280] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 17:58:39,906] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 17:58:40,369] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 17:58:40,503] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 17:58:40,507] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 17:58:40,507] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 17:58:40,507] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 17:58:40,510] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 17:58:40,683] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 17:58:40,711] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 17:58:41,200] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 17:58:41,280] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 17:59:56,525] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 17:59:56,888] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 17:59:57,024] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 17:59:57,028] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 17:59:57,029] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 17:59:57,029] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 17:59:57,032] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 17:59:57,232] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 17:59:57,265] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 17:59:57,793] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 17:59:57,883] INFO [ProductsDaoTest: 71] Object was updated in method update():
+[2023-12-19 17:59:57,884] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 18:01:03,644] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 18:01:04,049] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 18:01:04,213] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 18:01:04,218] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 18:01:04,218] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 18:01:04,219] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 18:01:04,221] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 18:01:04,398] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 18:01:04,430] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 18:01:04,939] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 18:01:05,033] INFO [ProductsDaoTest: 71] Object was updated in method update(): Products(id=1, supplier=Suppliers(id=1, name=Horns&&Hoofs, address=Perm, commi 35, email=horn@gmail.com, phoneNumber=8-988-342-65-98), name=horns, count=700, priceForOne=100, category=Category(id=1, categoryName=Фрукты))
+[2023-12-19 18:01:05,035] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 18:03:18,095] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 18:03:18,465] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 18:03:18,611] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 18:03:18,614] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 18:03:18,615] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 18:03:18,615] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 18:03:18,618] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 18:03:18,799] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 18:03:18,831] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 18:03:19,319] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 18:03:19,414] WARN [ProductsDaoTest: 82] Object was deleted in method delete():Products(id=4, supplier=Suppliers(id=4, name=Beaks&&Feathers, address=Unknown, email=beak@gmail.com, phoneNumber=1-111-111-11-99), name=Мясо, count=125, priceForOne=500, category=Category(id=3, categoryName=Мясо))
+[2023-12-19 18:03:19,415] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 18:05:00,247] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 18:05:00,621] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 18:05:00,806] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 18:05:00,811] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 18:05:00,811] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 18:05:00,811] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 18:05:00,814] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 18:05:01,002] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 18:05:01,035] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 18:05:01,524] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 18:05:01,614] INFO [ProductsDaoTest: 60] Object was saved in method save(): Products(id=5, supplier=Suppliers(id=4, name=Beaks&&Feathers, address=Unknown, email=beak@gmail.com, phoneNumber=1-111-111-11-99), name=Мясо, count=125, priceForOne=500, category=Category(id=3, categoryName=Мясо))
+[2023-12-19 18:05:01,615] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 19:08:22,153] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 19:08:22,535] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 19:08:22,667] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 19:08:22,671] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 19:08:22,672] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 19:08:22,672] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 19:08:22,675] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 19:08:22,876] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 19:08:22,903] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 19:08:23,400] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 19:08:23,523] INFO [SuppliersDaoTest: 21] List from method findAll(): [Suppliers(id=1, name=Horns&&Hoofs, address=Perm, commi 35, email=horn@gmail.com, phoneNumber=8-988-342-65-98), Suppliers(id=3, name=Noses&&Tails, address=Krasnodar, Sadovaya 34,corp3, email=nose@yandex.ru, phoneNumber=8-455-876-23-21), Suppliers(id=4, name=Beaks&&Feathers, address=Unknown, email=beak@gmail.com, phoneNumber=1-111-111-11-99)]
+[2023-12-19 19:08:23,524] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 19:10:04,783] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 19:10:05,160] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 19:10:05,298] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 19:10:05,301] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 19:10:05,302] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 19:10:05,302] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 19:10:05,305] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 19:10:05,486] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 19:10:05,517] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 19:10:06,005] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 19:10:06,085] INFO [SuppliersDaoTest: 32] Object from method findById(): Suppliers(id=3, name=Noses&&Tails, address=Krasnodar, Sadovaya 34,corp3, email=nose@yandex.ru, phoneNumber=8-455-876-23-21)
+[2023-12-19 19:10:06,086] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 19:15:31,553] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 19:15:31,918] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 19:15:32,065] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 19:15:32,069] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 19:15:32,069] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 19:15:32,069] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 19:15:32,072] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 19:15:32,252] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 19:15:32,283] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 19:15:32,775] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 19:15:32,845] INFO [SuppliersDaoTest: 48] Object was saved in method save(): Suppliers(id=5, name=Tails&&Beaks, address=On the village for grandfather, email=tail@gmail.com, phoneNumber=2-222-333-44-55)
+[2023-12-19 19:15:32,847] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 19:18:00,549] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 19:18:00,952] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 19:18:01,150] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 19:18:01,153] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 19:18:01,154] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 19:18:01,154] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 19:18:01,157] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 19:18:01,336] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 19:18:01,369] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 19:18:01,868] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 19:18:01,952] INFO [SuppliersDaoTest: 60] Object was updated in method update(): Suppliers(id=3, name=Noses&&Tails, address=Kitezh, email=nose@yandex.ru, phoneNumber=8-455-876-23-21)
+[2023-12-19 19:18:01,953] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 19:20:02,796] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 19:20:03,188] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 19:20:03,327] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 19:20:03,330] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 19:20:03,330] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 19:20:03,331] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 19:20:03,333] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 19:20:03,518] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 19:20:03,545] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 19:20:04,021] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 19:20:04,102] WARN [SuppliersDaoTest: 71] Object was deleted in method delete(): Suppliers(id=5, name=Tails&&Beaks, address=On the village for grandfather, email=tail@gmail.com, phoneNumber=2-222-333-44-55)
+[2023-12-19 19:20:04,102] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 19:58:35,397] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 19:58:35,777] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 19:58:35,915] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 19:58:35,919] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 19:58:35,920] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 19:58:35,920] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 19:58:35,923] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 19:58:36,095] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 19:58:36,126] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 19:58:36,613] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 19:58:36,683] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-19 19:58:36,683] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "password" отношения "users" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (4, Vadim, 1984-08-12, null, ADMIN).
+[2023-12-19 19:58:36,686] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:00:12,044] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 20:00:12,406] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 20:00:12,552] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 20:00:12,555] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:00:12,555] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 20:00:12,556] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 20:00:12,558] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 20:00:12,730] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 20:00:12,758] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 20:00:13,245] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 20:00:13,314] INFO [EmployeesDaoTest: 52] Object was saved in method findById(): User(id=5, name=Vadim, birthday=1984-08-12, password=344, status=ADMIN)
+[2023-12-19 20:00:13,315] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:03:03,281] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 20:03:03,655] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 20:03:03,789] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 20:03:03,793] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:03:03,793] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 20:03:03,793] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 20:03:03,796] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 20:03:03,989] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 20:03:04,059] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 20:03:04,559] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 20:03:04,609] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:04:49,921] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 20:04:50,336] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 20:04:50,477] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 20:04:50,481] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:04:50,481] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 20:04:50,482] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 20:04:50,485] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 20:04:50,680] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 20:04:50,710] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 20:04:51,207] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 20:04:51,281] INFO [UserDaoTest: 64] Object was updated in method update(): User(id=2, name=Ivan, birthday=1984-11-09, password=56789, status=MANAGER)
+[2023-12-19 20:04:51,282] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:05:56,341] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 20:05:56,724] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 20:05:56,890] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 20:05:56,893] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:05:56,894] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 20:05:56,894] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 20:05:56,896] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 20:05:57,076] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 20:05:57,104] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 20:05:57,611] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 20:05:57,656] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:06:16,343] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 20:06:16,753] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 20:06:16,896] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 20:06:16,900] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:06:16,901] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 20:06:16,901] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 20:06:16,904] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 20:06:17,102] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 20:06:17,131] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 20:06:17,633] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 20:06:17,714] INFO [UserDaoTest: 64] Object was updated in method update(): User(id=2, name=Ivan, birthday=1984-11-09, password=56789, status=ADMIN)
+[2023-12-19 20:06:17,715] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:07:01,843] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 20:07:02,216] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 20:07:02,355] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 20:07:02,358] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:07:02,359] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 20:07:02,359] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 20:07:02,362] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 20:07:02,536] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 20:07:02,567] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 20:07:03,056] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 20:07:03,130] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:14:11,284] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 20:14:11,663] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 20:14:11,805] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 20:14:11,809] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:14:11,809] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 20:14:11,810] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 20:14:11,813] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 20:14:11,997] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 20:14:12,022] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 20:14:12,536] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 20:14:12,582] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:15:12,095] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 20:15:12,470] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 20:15:12,606] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 20:15:12,610] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:15:12,610] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 20:15:12,610] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 20:15:12,613] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 20:15:12,780] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 20:15:12,807] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 20:15:13,312] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 20:15:13,369] INFO [UserDaoTest: 86] Object was find by your password in method findByPassword(): null
+[2023-12-19 20:15:13,369] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:29:45,992] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 20:29:46,462] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 20:29:46,594] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 20:29:46,599] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:29:46,599] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 20:29:46,599] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 20:29:46,602] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 20:29:46,787] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 20:29:46,817] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 20:29:47,358] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 20:29:47,470] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:35:02,078] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 20:35:02,441] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 20:35:02,579] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 20:35:02,583] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:35:02,583] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 20:35:02,584] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 20:35:02,586] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 20:35:02,775] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 20:35:02,806] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 20:35:03,300] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 20:35:03,391] INFO [UserDaoTest: 91] Object was find by your password in method findByPassword(): [User(id=3, name=Imir, birthday=1995-01-11, password=111, status=MANAGER)]
+[2023-12-19 20:35:03,392] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:42:45,761] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 20:42:46,120] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 20:42:46,301] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 20:42:46,305] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:42:46,306] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 20:42:46,306] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 20:42:46,309] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 20:42:46,553] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 20:42:46,591] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 20:42:47,130] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 20:42:47,241] INFO [UserDaoTest: 91] Object was find by your password in method findByPassword(): [User(id=3, name=Imir, birthday=1995-01-11, password=111, status=MANAGER)]
+[2023-12-19 20:42:47,245] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:44:35,225] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 20:44:35,603] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 20:44:35,744] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 20:44:35,748] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:44:35,748] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 20:44:35,749] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 20:44:35,751] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 20:44:35,923] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 20:44:35,952] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 20:44:36,440] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 20:44:36,506] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-19 20:44:36,506] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "id" отношения "category" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Питьевая вода).
+[2023-12-19 20:44:36,509] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:51:10,709] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 20:51:11,109] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 20:51:11,240] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 20:51:11,244] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 20:51:11,244] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 20:51:11,245] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 20:51:11,247] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 20:51:11,429] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 20:51:11,459] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 20:51:11,962] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 20:51:12,026] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23502
+[2023-12-19 20:51:12,028] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: значение NULL в столбце "id" отношения "category" нарушает ограничение NOT NULL
+  Подробности: Ошибочная строка содержит (null, Питьевая вода).
+[2023-12-19 20:51:12,031] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 21:00:14,944] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 21:00:15,332] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 21:00:15,467] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 21:00:15,471] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 21:00:15,471] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 21:00:15,472] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 21:00:15,475] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 21:00:15,643] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 21:00:15,673] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 21:00:16,174] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 21:00:16,240] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23505
+[2023-12-19 21:00:16,240] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "category_pkey"
+  Подробности: Ключ "(id)=(1)" уже существует.
+[2023-12-19 21:00:16,243] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 21:01:34,277] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 21:01:34,653] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 21:01:34,789] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 21:01:34,793] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 21:01:34,793] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 21:01:34,793] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 21:01:34,796] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 21:01:34,980] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 21:01:35,010] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 21:01:35,517] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 21:01:35,595] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 21:02:02,470] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 21:02:02,854] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 21:02:02,988] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 21:02:02,992] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 21:02:02,993] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 21:02:02,993] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 21:02:02,996] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 21:02:03,179] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 21:02:03,207] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 21:02:03,761] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 21:02:03,864] WARN [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 137] SQL Error: 0, SQLState: 23505
+[2023-12-19 21:02:03,865] ERROR [org.hibernate.engine.jdbc.spi.SqlExceptionHelper: 142] ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "category_pkey"
+  Подробности: Ключ "(id)=(2)" уже существует.
+[2023-12-19 21:02:03,869] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 21:02:54,585] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 21:02:54,960] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 21:02:55,085] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 21:02:55,089] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 21:02:55,090] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 21:02:55,090] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 21:02:55,093] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 21:02:55,277] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 21:02:55,308] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 21:02:55,805] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 21:02:55,875] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 21:06:03,559] INFO [org.hibernate.Version: 44] HHH000412: Hibernate ORM core version 5.6.15.Final
+[2023-12-19 21:06:03,947] INFO [org.hibernate.annotations.common.Version: 56] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-12-19 21:06:04,165] WARN [org.hibernate.orm.connections.pooling: 75] HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+[2023-12-19 21:06:04,171] INFO [org.hibernate.orm.connections.pooling: 119] HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/internet_shop]
+[2023-12-19 21:06:04,171] INFO [org.hibernate.orm.connections.pooling: 128] HHH10001001: Connection properties: {password=****, user=postgres}
+[2023-12-19 21:06:04,172] INFO [org.hibernate.orm.connections.pooling: 132] HHH10001003: Autocommit mode: false
+[2023-12-19 21:06:04,175] INFO [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl: 322] HHH000115: Hibernate connection pool size: 20 (min=1)
+[2023-12-19 21:06:04,365] INFO [org.hibernate.dialect.Dialect: 175] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+[2023-12-19 21:06:04,397] INFO [org.hibernate.orm.beans: 76] HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+[2023-12-19 21:06:04,901] INFO [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: 52] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-12-19 21:06:04,968] INFO [CategoryDaoTest: 51] Object was saved in method save(): Category(id=4, categoryName=Питьевая вода)
+[2023-12-19 21:06:04,969] INFO [org.hibernate.orm.connections.pooling: 550] HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/internet_shop]

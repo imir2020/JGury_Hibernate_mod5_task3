@@ -5,6 +5,8 @@ import entity.User;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import lombok.SneakyThrows;
+import org.hibernate.query.Query;
+import utils.HibernateUtil;
 import utils.StatementUtil;
 
 import java.sql.Date;
@@ -19,79 +21,84 @@ import static java.sql.Statement.RETURN_GENERATED_KEYS;
 
 public class UserDao implements Dao<Long, User> {
     private final static UserDao INSTANCE = new UserDao();
-    private static String SAVE_SQL = """
-            INSERT INTO users(name,birthday,password,status)
-            VALUES(?,?,?,?)
-            """;
-    private static String GET_PASSWORD_SQL = """
-            SELECT * FROM users WHERE password=?
-            """;
 
     public static UserDao getInstance() {
         return INSTANCE;
     }
 
-    private User buildUser(ResultSet resultSet) throws SQLException {
-        return User.builder()
-                .id(resultSet.getObject("id", Integer.class))
-                .name(resultSet.getObject("name", String.class))
-                .birthday(resultSet.getObject("birthday", Date.class).toLocalDate())
-                .password(resultSet.getObject("password", String.class))
-                .status(Status.find(resultSet.getObject("status", String.class)).orElse(null))
-                .build();
-    }
-
-
     @SneakyThrows
     public Optional<User> findByPassword(String password) {
-        try (var preparedStatement = StatementUtil.getStatement(GET_PASSWORD_SQL)) {
-            preparedStatement.setString(1, password);
+        try (var sessionFactory = HibernateUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.getTransaction().begin();
+            String query = "select * from users  where password = :password";
+            Query result = session.createNativeQuery(query, User.class);
+            result.setParameter("password", password);
+            List<User> users = result.getResultList();
+            session.getTransaction().commit();
+            return Optional.ofNullable(users.get(0));
+        }
+    }
 
-            var resultSet = preparedStatement.executeQuery();
-            User user = null;
-            if (resultSet.next()) {
-                user = buildUser(resultSet);
-            }
+    @Override
+    public List<User> findAll() {
+        try (var sessionFactory = HibernateUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.getTransaction().begin();
+            List<User> list = session.createQuery("from User", User.class).list();
+            session.getTransaction().commit();
+            return list;
+        }
+    }
+
+    @Override
+    public Optional<User> findById(Long id) {
+        try (var sessionFactory = HibernateUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.getTransaction().begin();
+            User user = session.get(User.class, id);
+            session.getTransaction().commit();
             return Optional.ofNullable(user);
         }
+
     }
 
     @Override
     @SneakyThrows
     public User save(User user) {
-        try (var preparedStatement = StatementUtil.getStatement(SAVE_SQL, RETURN_GENERATED_KEYS)) {
-            preparedStatement.setObject(1, user.getName());
-            preparedStatement.setObject(2, user.getBirthday());
-            preparedStatement.setObject(3, user.getPassword());
-            preparedStatement.setObject(4, user.getStatus().name());
-
-            preparedStatement.executeUpdate();
-
-            var generatedKeys = preparedStatement.getGeneratedKeys();
-            if (generatedKeys.next()) {
-                user.setId(generatedKeys.getObject("id", Integer.class));
-            }
-            return user;
+        try (var sessionFactory = HibernateUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.getTransaction().begin();
+            session.save(user);
+            session.getTransaction().commit();
         }
+        return user;
     }
 
     @Override
     public boolean update(User user) {
-        return false;
-    }
-
-    @Override
-    public List<User> findAll() {
-        return null;
-    }
-
-    @Override
-    public Optional<User> findById(Long id) {
-        return Optional.empty();
+        boolean isUpdate = false;
+        try (var sessionFactory = HibernateUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.getTransaction().begin();
+            session.update(user);
+            session.getTransaction().commit();
+            isUpdate = true;
+        }
+        return isUpdate;
     }
 
     @Override
     public boolean delete(Long id) {
-        return false;
+        boolean isDelete =false;
+        try (var sessionFactory = HibernateUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.getTransaction().begin();
+            User user = session.get(User.class, id);
+            session.delete(user);
+            session.getTransaction().commit();
+            isDelete = true;
+        }
+        return isDelete;
     }
 }

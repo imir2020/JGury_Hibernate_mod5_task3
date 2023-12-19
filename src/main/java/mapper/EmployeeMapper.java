@@ -16,7 +16,7 @@ public class EmployeeMapper implements Mapper<EmployeesDto, Employees> {
                 .name(employee.getName())
                 .dateBirth(employee.getDateBirth())
                 .phoneNumber(employee.getPhoneNumber())
-                .rankId(employee.getRankId())
+                .rankId(employee.getRank().getId())
                 .build();
     }
 

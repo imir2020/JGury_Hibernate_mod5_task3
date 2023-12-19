@@ -3,6 +3,7 @@ package mapper;
 import dto.EmployeesDto;
 import dto.ToBaseEmployeeDto;
 import entity.Employees;
+import entity.Ranks;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import utils.LocalDateFormatter;
@@ -19,7 +20,7 @@ public class CreateEmployeeMapper implements Mapper<Employees, ToBaseEmployeeDto
                 .dateBirth(LocalDateFormatter.format(employeesDto.getDateBirth()))
                 .phoneNumber(employeesDto.getPhoneNumber())
                 .address(employeesDto.getAddress())
-                .rankId(employeesDto.getRankId())
+                .rank(Ranks.builder().id(employeesDto.getRankId()).build())//employeesDto.getRankId()
                 .build();
     }
 

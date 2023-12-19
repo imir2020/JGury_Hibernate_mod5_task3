@@ -19,7 +19,7 @@ public class CategoryService {
 
     public List<CategoryDto> findAll() {
         return categoryDao.findAll().stream().map(category ->
-                        new CategoryDto(category.getCategory(),
+                        new CategoryDto(category.getId(),
                                 category.getCategoryName()))
                 .collect(Collectors.toList());
     }

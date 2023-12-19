@@ -1,18 +1,32 @@
 package entity;
 
+import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;
+
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Setter
-@Getter
-@ToString
-@EqualsAndHashCode
+@Builder
+@Entity
+@Table(name = "sales")
 public class Sales {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private Long productId;
+
+    @ManyToOne()
+    @JoinColumn(name = "product_id")
+    private Products product;
+
+    @Column(name = "count")
     private Long count;
-    private Long employeeId;
+
+    @ManyToOne()
+    @JoinColumn(name = "employee_id")
+    private Employees employee;
+
+    @Column(name = "date_sales")
     private LocalDate dateSales;
 }
