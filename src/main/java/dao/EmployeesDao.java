@@ -21,7 +21,6 @@ public class EmployeesDao implements Dao<Long, Employees> {
         try (var sessionFactory = HibernateUtil.buildSessionFactory();
              var session = sessionFactory.openSession()) {
             session.getTransaction().begin();
-            session.beginTransaction();
             List<Employees> employees = session.createQuery("from Employees", Employees.class).list();
             session.getTransaction().commit();
             return employees;
@@ -75,5 +74,10 @@ public class EmployeesDao implements Dao<Long, Employees> {
             isDelete = true;
         }
         return isDelete;
+    }
+
+    public static void main(String[] args) {
+        EmployeesDao f = new EmployeesDao();
+        f.findAll();
     }
 }

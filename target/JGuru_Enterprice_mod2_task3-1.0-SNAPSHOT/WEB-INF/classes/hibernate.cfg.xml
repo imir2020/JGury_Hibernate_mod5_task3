@@ -10,7 +10,7 @@
         <property name="connection.password">123</property>
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
-        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQL10Dialect</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <mapping class="entity.Category"/>
         <mapping class="entity.Employees"/>
         <mapping class="entity.Orders"/>
