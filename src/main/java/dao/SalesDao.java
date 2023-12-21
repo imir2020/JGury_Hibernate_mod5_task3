@@ -1,8 +1,10 @@
 package dao;
 
 import entity.Category;
+import entity.Employees;
 import entity.Sales;
 import utils.ConnectionManager;
+import utils.HibernateUtil;
 import utils.StatementUtil;
 
 import java.sql.ResultSet;
@@ -15,34 +17,6 @@ import java.util.Optional;
 
 public class SalesDao implements Dao<Long, Sales> {
     private static final SalesDao INSTANCE = new SalesDao();
-    private static final String FIND_ALL = """
-                        select
-                        id,product_id,count,employee_id,date_sales
-                        from sales
-            """;
-    private static final String FIND_BY_ID = """
-                        select
-                        id,product_id,count,employee_id,date_sales
-                        from sales
-                        where id=?
-            """;
-    private static final String SAVE = """
-                        insert into sales (product_id,count,employee_id,date_sales)
-                        values(?,?,?,?);
-            """;
-    private static final String UPDATE = """
-                        update sales
-                        set
-                        product_id=?,
-                        count=?,
-                        employee_id=?,
-                        date_sales=?
-                        where id=?
-            """;
-    private static final String DELETE = """
-                     delete from sales
-                     where id=?   
-            """;
 
     private SalesDao() {
     }
@@ -51,83 +25,62 @@ public class SalesDao implements Dao<Long, Sales> {
         return INSTANCE;
     }
 
-//    private Sales buildSales(ResultSet result) throws SQLException {
-//        return new Sales(
-//                result.getLong("id"),
-//                result.getLong("product_id"),
-//                result.getLong("count"),
-//                result.getLong("employee_id"),
-//                (result.getTimestamp("date_sales")).toLocalDateTime().toLocalDate()
-//        );
-//    }
-
-    @Override
-    public boolean update(Sales sale) {
-//        try (var statement = StatementUtil.getStatement(UPDATE)) {
-//            statement.setLong(1, sale.getProductId());
-//            statement.setLong(2, sale.getCount());
-//            statement.setLong(3, sale.getEmployeeId());
-//            statement.setObject(4, sale.getDateSales());
-//            statement.setLong(5, sale.getId());
-//            return statement.executeUpdate() > 0;
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//        }
-        return false;
-    }
-
     @Override
     public List<Sales> findAll() {
-        return null;
+        try (var sessionFactory = HibernateUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.getTransaction().begin();
+            List<Sales> list = session.createQuery("from Sales", Sales.class).list();
+            session.getTransaction().commit();
+            return list;
+        }
     }
 
     @Override
     public Optional<Sales> findById(Long id) {
-//        try (var statement = StatementUtil.getStatement(FIND_BY_ID)) {
-//            statement.setLong(1, id);
-//            var result = statement.executeQuery();
-//            Sales sale = null;
-//            if (result.next()) {
-//                sale = buildSales(result);
-//            }
-//            return Optional.ofNullable(sale);
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//        }
-
-        return null;
+        try (var sessionFactory = HibernateUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.getTransaction().begin();
+            Sales sale = session.get(Sales.class, id);
+            session.getTransaction().commit();
+            return Optional.ofNullable(sale);
+        }
     }
 
     @Override
     public Sales save(Sales sale) {
-//        try (var statement = StatementUtil.getStatement(SAVE, Statement.RETURN_GENERATED_KEYS)) {
-//
-//            statement.setLong(1, sale.getProductId());
-//            statement.setLong(2, sale.getCount());
-//            statement.setLong(3, sale.getEmployeeId());
-//            statement.setObject(4, sale.getDateSales());
-//            statement.executeUpdate();
-//
-//            var key = statement.getGeneratedKeys();
-//            if (key.next()) {
-//                sale.setId(key.getLong("id"));
-//            }
-//            return sale;
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//        }
-    return null;
+        try (var sessionFactory = HibernateUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.getTransaction().begin();
+            session.save(sale);
+            session.getTransaction().commit();
+            return sale;
+        }
+    }
+
+    @Override
+    public boolean update(Sales sale) {
+        boolean isUpdate = false;
+        try (var sessionFactory = HibernateUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.getTransaction().begin();
+            session.update(sale);
+            session.getTransaction().commit();
+            isUpdate = true;
+        }
+        return isUpdate;
     }
 
     @Override
     public boolean delete(Long id) {
-//        try (var statement = StatementUtil.getStatement(DELETE)) {
-//            statement.setLong(1, id);
-//            return statement.executeUpdate() > 0;
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//        }
-
-        return false;
+        boolean isDelete = false;
+        try (var sessionFactory = HibernateUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.getTransaction().begin();
+            Sales sale = session.get(Sales.class, id);
+            session.delete(sale);
+            session.getTransaction().commit();
+        }
+        return isDelete;
     }
 }

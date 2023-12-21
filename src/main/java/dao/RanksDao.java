@@ -1,8 +1,10 @@
 package dao;
 
 import entity.Category;
+import entity.Employees;
 import entity.Ranks;
 import utils.ConnectionManager;
+import utils.HibernateUtil;
 import utils.StatementUtil;
 
 import java.sql.ResultSet;
@@ -14,32 +16,6 @@ import java.util.Optional;
 
 public class RanksDao implements Dao<Long, Ranks> {
     private static final RanksDao INSTANCE = new RanksDao();
-    private static final String FIND_ALL = """
-                        select
-                        id,rank_name,salary
-                        from ranks
-            """;
-    private static final String FIND_BY_ID = """
-                        select
-                        id,rank_name,salary
-                        from ranks
-                        where id=?
-            """;
-    private static final String SAVE = """
-                        insert into ranks (rank_name,salary)
-                        values(?,?);
-            """;
-    private static final String UPDATE = """
-                        update ranks
-                        set
-                        rank_name=?,
-                        salary=?
-                        where id=?
-            """;
-    private static final String DELETE = """
-                        delete from ranks
-                        where id=?
-            """;
 
     private RanksDao() {
     }
@@ -48,84 +24,64 @@ public class RanksDao implements Dao<Long, Ranks> {
         return INSTANCE;
     }
 
-    private Ranks buildRank(ResultSet result) throws SQLException {
-        return new Ranks(
-                result.getLong("id"),
-                result.getString("rank_name"),
-                result.getLong("salary")
-        );
-    }
-
-    @Override
-    public boolean update(Ranks ranks) {
-//        try(var statement = StatementUtil.getStatement(UPDATE)) {
-//            statement.setString(1, ranks.getRankName());
-//            statement.setLong(2, ranks.getSalary());
-//            statement.setLong(3, ranks.getId());
-//            return statement.executeUpdate() > 0;
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//        }
-        return false;
-    }
-
     @Override
     public List<Ranks> findAll() {
-//        try(var statement = StatementUtil.getStatement(FIND_ALL)) {
-//            List<Ranks> ranks = new ArrayList<>();
-//            var result = statement.executeQuery();
-//            while (result.next()) {
-//                ranks.add(buildRank(result));
-//            }
-//            return ranks;
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//        }
-        return null;
+        try (var sessionFactory = HibernateUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.getTransaction().begin();
+            List<Ranks> list = session.createQuery("from Ranks", Ranks.class).list();
+            session.getTransaction().commit();
+            return list;
+        }
     }
 
     @Override
     public Optional<Ranks> findById(Long id) {
-//        try(var statement = StatementUtil.getStatement(FIND_BY_ID)) {
-//            statement.setLong(1,id);
-//            var result = statement.executeQuery();
-//            Ranks rank = null;
-//            if (result.next()) {
-//                rank = buildRank(result);
-//            }
-//            return Optional.ofNullable(rank);
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//        }
-        return null;
+        try (var sessionFactory = HibernateUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.getTransaction().begin();
+            Ranks rank = session.get(Ranks.class, id);
+            session.getTransaction().commit();
+            return Optional.ofNullable(rank);
+        }
     }
 
     @Override
     public Ranks save(Ranks rank) {
-//        try(var statement = StatementUtil.getStatement(SAVE, Statement.RETURN_GENERATED_KEYS)) {
-//            statement.setString(1, rank.getRankName());
-//            statement.setLong(2, rank.getSalary());
-//            statement.executeUpdate();
-//
-//            var key = statement.getGeneratedKeys();
-//            if (key.next()) {
-//                rank.setId(key.getLong("id"));
-//            }
-//            return rank;
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//        }
-        return null;
+        try (var sessionFactory = HibernateUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.getTransaction().begin();
+            session.save(rank);
+            session.getTransaction().commit();
+            return rank;
+        }
+    }
+
+    @Override
+    public boolean update(Ranks rank) {
+        boolean isUpdate = false;
+        try (var sessionFactory = HibernateUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.getTransaction().begin();
+            session.update(rank);
+            session.getTransaction().commit();
+            isUpdate = true;
+        }
+        return isUpdate;
     }
 
     @Override
     public boolean delete(Long id) {
-//        try(var statement = StatementUtil.getStatement(DELETE)) {
-//            statement.setLong(1, id);
-//            return statement.executeUpdate() > 0;
-//        } catch (SQLException e) {
-//            throw new RuntimeException(e);
-//        }
-        return false;
+        boolean isDelete = false;
+
+        try (var sessionFactory = HibernateUtil.buildSessionFactory();
+             var session = sessionFactory.openSession()) {
+            session.getTransaction().begin();
+            Ranks rank = session.get(Ranks.class, id);
+            session.delete(rank);
+            session.getTransaction().commit();
+            isDelete = true;
+        }
+        return isDelete;
     }
 }
