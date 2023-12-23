@@ -42,10 +42,8 @@ public class UserService {
 
         var user = createUserMapper.mapFrom(createUserDto);
         var result = userDao.save(user);
-        log.info("The User with name {} and status {} was registered", user.getName(), user.getStatus());
         return result.getId();
     }
-
 
     public static UserService getInstance() {
         return INSTANCE;
