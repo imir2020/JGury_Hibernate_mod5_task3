@@ -1,21 +1,14 @@
 package dao;
 
-import entity.Status;
 import entity.User;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import lombok.SneakyThrows;
 import org.hibernate.query.Query;
 import utils.HibernateUtil;
-import utils.StatementUtil;
 
-import java.sql.Date;
-import java.sql.ResultSet;
-import java.sql.SQLException;
 import java.util.List;
 import java.util.Optional;
-
-import static java.sql.Statement.RETURN_GENERATED_KEYS;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 

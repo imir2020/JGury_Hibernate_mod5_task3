@@ -24,10 +24,7 @@ public class CategoryDaoTest {
         @Cleanup var session = sessionFactory.openSession();
         session.getTransaction().begin();
         List<Category> categories = session.createQuery("from Category", Category.class).list();
-        System.out.println(categories);//test
         session.getTransaction().commit();
-        session.close();
-        sessionFactory.close();
     }
 
     @Test
@@ -36,8 +33,8 @@ public class CategoryDaoTest {
         @Cleanup var session = sessionFactory.openSession();
         session.beginTransaction();
         Category category = session.get(Category.class, 2L);
-        logger.info("this is category example {}", category);
         session.getTransaction().commit();
+        logger.info("this is category example {}", category);
     }
 
     @Test

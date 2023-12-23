@@ -1,17 +1,8 @@
 package dao;
 
-import entity.Category;
-import entity.Employees;
-import entity.Sales;
-import utils.ConnectionManager;
-import utils.HibernateUtil;
-import utils.StatementUtil;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.time.LocalDate;
-import java.util.ArrayList;
+import entity.Sales;
+import utils.HibernateUtil;
 import java.util.List;
 import java.util.Optional;
 

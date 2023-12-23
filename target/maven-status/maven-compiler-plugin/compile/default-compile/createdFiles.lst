@@ -6,7 +6,6 @@ dao\UserDao.class
 entity\Orders$OrdersBuilder.class
 entity\Sales$SalesBuilder.class
 mapper\EmployeeMapper.class
-utils\ConnectionManager.class
 utils\UrlPath.class
 entity\Orders.class
 entity\Employees.class
@@ -17,7 +16,6 @@ dao\CategoryDao.class
 servlets\LoginServlet.class
 filter\CharsetFilters.class
 validator\Validator.class
-utils\PropertiesUtil.class
 filter\LoggingFilter.class
 servlets\RegistrationServlet.class
 dto\ToBaseEmployeeDto.class
@@ -64,7 +62,6 @@ entity\User.class
 dto\ToBaseEmployeeDto$ToBaseEmployeeDtoBuilder.class
 entity\Employees$EmployeesBuilder.class
 servlets\SupplierServlet.class
-utils\StatementUtil.class
 dao\ProductsDao.class
 entity\Category$CategoryBuilder.class
 servlets\EmployeeServlet.class

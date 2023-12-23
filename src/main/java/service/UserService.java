@@ -7,13 +7,14 @@ import dto.UserDto;
 import exception.ValidationException;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import mapper.CreateUserMapper;
 import mapper.UserToUserDtoMapper;
 import validator.CreateUserValidator;
 
 import java.util.Optional;
 
-
+@Slf4j
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public class UserService {
     private final static UserService INSTANCE = new UserService();
@@ -24,8 +25,14 @@ public class UserService {
     private final UserToUserDtoMapper userToUserDtoMapper = UserToUserDtoMapper.getInstance();
 
     public Optional<UserDto> login(String password) {
-        return userDao.findByPassword(password)
+        Optional<UserDto>  result = userDao.findByPassword(password)
                 .map(userToUserDtoMapper::mapFrom);
+        if (result.isEmpty()){
+            log.warn("The password is not exist: {}",password);
+        }else {
+            log.info("The User with name {} was login",result.get().getName());
+        }
+        return result;
     }
     public Integer create(CreateUserDto createUserDto) {
         var validationResult = createUserValidator.isValid(createUserDto);
@@ -35,6 +42,7 @@ public class UserService {
 
         var user = createUserMapper.mapFrom(createUserDto);
         var result = userDao.save(user);
+        log.info("The User with name {} and status {} was registered", user.getName(), user.getStatus());
         return result.getId();
     }
 

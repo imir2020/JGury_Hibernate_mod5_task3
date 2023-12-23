@@ -1,16 +1,9 @@
 package dao;
 
 import entity.Category;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
-import utils.ConnectionManager;
 import utils.HibernateUtil;
-import utils.StatementUtil;
 
 import java.io.Serializable;
-import java.sql.*;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
