@@ -1,6 +1,8 @@
 package entity;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
+
+import dao.Greid;
 import lombok.*;
 
 @Data
@@ -14,8 +16,9 @@ public class Ranks {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Enumerated(EnumType.STRING)
     @Column(name = "rank_name")
-    private String rankName;
+    private Greid rankName;
 
     @Column(name = "salary")
     private Long salary;

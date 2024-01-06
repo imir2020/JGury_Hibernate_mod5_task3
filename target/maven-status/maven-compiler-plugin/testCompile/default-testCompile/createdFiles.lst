@@ -1,9 +1,0 @@
-dao\SalesDaoTest.class
-dao\OrdersDaoTest.class
-dao\RanksDaoTest.class
-dao\CategoryDaoTest.class
-dao\SuppliersDaoTest.class
-dao\EmployeesDaoTest.class
-dao\ProductsDaoTest.class
-dao\UserDaoTest.class
-dao\StatusDaoTest.class

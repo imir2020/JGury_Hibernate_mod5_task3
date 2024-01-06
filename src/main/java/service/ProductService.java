@@ -3,8 +3,6 @@ package service;
 import dao.ProductsDao;
 import dto.ProductDto;
 
-import java.util.Optional;
-
 public class ProductService {
     private static final ProductService INSTANCE = new ProductService();
     private final ProductsDao productsDao = ProductsDao.getInstance();

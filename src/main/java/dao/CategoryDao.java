@@ -7,6 +7,10 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Создать 3 дополнительных метода вызова данных из базы, + использовать entityGraph API для решения проблемы N + 1
+ */
+
 public class CategoryDao implements Dao<Long, Category> {
     private static final CategoryDao INSTANCE = new CategoryDao();
 
@@ -78,4 +82,5 @@ public class CategoryDao implements Dao<Long, Category> {
         }
         return isDelete;
     }
+
 }

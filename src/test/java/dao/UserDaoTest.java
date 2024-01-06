@@ -2,23 +2,47 @@ package dao;
 
 import entity.Status;
 import entity.User;
-import jakarta.persistence.TypedQuery;
 import lombok.Cleanup;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import utils.HibernateUtil;
+import utils.TestDataImporter;
 
 import java.time.LocalDate;
 import java.util.List;
 
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.TestInstance.Lifecycle.PER_CLASS;
+
+/**
+ * Создать 3 дополнительных метода вызова данных из базы, + использовать entityGraph API для решения проблемы N + 1
+ */
+@TestInstance(PER_CLASS)
 public class UserDaoTest {
     Logger log = LoggerFactory.getLogger("UserDaoTest");
+    private final UserDao userDao = UserDao.getInstance();
+    private static final SessionFactory sessionFactory = HibernateUtil.buildSessionFactory();
+
+    @BeforeAll
+    static void initDb() {
+        TestDataImporter.importData(sessionFactory);
+    }
+
+    @AfterAll
+
+    static void finish() {
+        sessionFactory.close();
+    }
 
     @Test
     public void findAll() {
-        @Cleanup var sessionFactory = HibernateUtil.buildSessionFactory();
         @Cleanup var session = sessionFactory.openSession();
         session.beginTransaction();
         List<User> list = session.createQuery("from User", User.class).list();
@@ -29,7 +53,6 @@ public class UserDaoTest {
 
     @Test
     public void findById() {
-        @Cleanup var sessionFactory = HibernateUtil.buildSessionFactory();
         @Cleanup var session = sessionFactory.openSession();
         session.beginTransaction();
         User user = session.get(User.class, 1L);
@@ -40,7 +63,6 @@ public class UserDaoTest {
 
     @Test
     public void save() {
-        @Cleanup var sessionFactory = HibernateUtil.buildSessionFactory();
         @Cleanup var session = sessionFactory.openSession();
         session.beginTransaction();
         User user = User.builder()
@@ -56,7 +78,6 @@ public class UserDaoTest {
 
     @Test
     public void update() {
-        @Cleanup var sessionFactory = HibernateUtil.buildSessionFactory();
         @Cleanup var session = sessionFactory.openSession();
         session.beginTransaction();
         User user = session.get(User.class, 2);
@@ -69,7 +90,6 @@ public class UserDaoTest {
 
     @Test
     public void delete() {
-        @Cleanup var sessionFactory = HibernateUtil.buildSessionFactory();
         @Cleanup var session = sessionFactory.openSession();
         session.beginTransaction();
         User user = session.get(User.class, 1);
@@ -79,15 +99,51 @@ public class UserDaoTest {
 
     @Test
     public void findByPassword() {
-        @Cleanup var sessionFactory = HibernateUtil.buildSessionFactory();
         @Cleanup var session = sessionFactory.openSession();
         session.beginTransaction();
         String password = "111";
         String query = "select * from users  where password = :password";
-       Query result = session.createNativeQuery(query, User.class);
-       result.setParameter("password",password);
+        Query result = session.createNativeQuery(query, User.class);
+        result.setParameter("password", password);
         List<User> users = result.getResultList();
         session.getTransaction().commit();
         log.info("Object was find by your password in method findByPassword(): {}", users);
+    }
+
+    /**
+     * Вывести всех пользователей с заданным статусом
+     */
+    @Test
+    public void findUsersWithСhooseStatus() {
+        @Cleanup var session = sessionFactory.openSession();
+        session.beginTransaction();
+        List<User> users = userDao.findUsersWithChooseStatus(session, Status.ADMIN);
+        assertThat(users).hasSize(4);
+        users.forEach(System.out::println);
+    }
+
+    /**
+     * Вывести всех пользователей отсортированных по фамилии
+     */
+    @Test
+    public void findAllUsersSortedByName() {
+        @Cleanup var session = sessionFactory.openSession();
+        session.beginTransaction();
+        List<User> users = userDao.findAllUsersSortedByName(session);
+        assertThat(users).hasSize(5);
+        users.forEach(System.out::println);
+    }
+
+    /**
+     * Вывести всех пользователей с датой рождения меньше указанной
+     */
+    @Test
+    public void findAllUsersByBirthday() {
+        @Cleanup var session = sessionFactory.openSession();
+        session.beginTransaction();
+        List<User> users = userDao.findAllUsersByBirthday(session, LocalDate.parse("1995-01-11"));
+        assertThat(users).hasSize(4);
+        users.forEach(System.out::println);
+
     }
 }

@@ -1,6 +1,6 @@
 package entity;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
 
 import java.sql.Timestamp;
@@ -40,8 +40,6 @@ public class Employees {
     @JoinColumn(name = "rank_id")
     private Ranks rank;
 
-//    @Column(name = "rank_id")
-//    private Long rankId;
     public void setRanks(Ranks rank){
         this.rank = rank;
     }

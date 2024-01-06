@@ -2,18 +2,16 @@ package dao;
 
 import entity.Category;
 import lombok.Cleanup;
-import org.apache.log4j.PropertyConfigurator;
-import org.checkerframework.checker.units.qual.C;
-import org.hibernate.Session;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import utils.HibernateUtil;
-import org.apache.log4j.PropertyConfigurator;
-import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
 
 import java.util.List;
+
+/**
+ * Создать 3 дополнительных метода вызова данных из базы, +  использовать entityGraph API для решения проблемы N + 1
+ */
 
 public class CategoryDaoTest {
    private final Logger logger = LoggerFactory.getLogger("CategoryDaoTest");

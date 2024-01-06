@@ -40,6 +40,7 @@ public class UserService {
             throw new ValidationException(validationResult.getErrors());
         }
 
+
         var user = createUserMapper.mapFrom(createUserDto);
         var result = userDao.save(user);
         return result.getId();
