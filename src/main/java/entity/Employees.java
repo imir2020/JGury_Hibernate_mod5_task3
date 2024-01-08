@@ -2,10 +2,12 @@ package entity;
 
 import javax.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.CacheConcurrencyStrategy;
+import org.hibernate.envers.Audited;
+import org.hibernate.envers.NotAudited;
 
-import java.sql.Timestamp;
 import java.time.LocalDate;
-import java.util.Date;
+
 
 @Data
 @AllArgsConstructor
@@ -13,6 +15,8 @@ import java.util.Date;
 @Builder
 @Entity
 @Table(name = "employees")
+@org.hibernate.annotations.Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE,region = "Employees")
+@Audited
 public class Employees {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -38,6 +42,7 @@ public class Employees {
 
     @OneToOne
     @JoinColumn(name = "rank_id")
+    @NotAudited
     private Ranks rank;
 
     public void setRanks(Ranks rank){

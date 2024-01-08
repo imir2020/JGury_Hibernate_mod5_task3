@@ -21,9 +21,6 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.TestInstance.Lifecycle.PER_CLASS;
 
-/**
- * Создать 3 дополнительных метода вызова данных из базы, + использовать entityGraph API для решения проблемы N + 1
- */
 @TestInstance(PER_CLASS)
 public class UserDaoTest {
     Logger log = LoggerFactory.getLogger("UserDaoTest");

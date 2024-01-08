@@ -9,7 +9,7 @@ import java.time.LocalDate;
 @Value
 @Builder
 public class UserDto {
-    Integer id;
+    Long id;
     String name;
     LocalDate birthday;
     Status status;

@@ -34,7 +34,7 @@ public class UserService {
         }
         return result;
     }
-    public Integer create(CreateUserDto createUserDto) {
+    public Long create(CreateUserDto createUserDto) {
         var validationResult = createUserValidator.isValid(createUserDto);
         if (!validationResult.isValid()) {
             throw new ValidationException(validationResult.getErrors());
