@@ -1,0 +1,10 @@
+dao\SalesRepositoryTest.class
+utils\DataLoader.class
+dao\UserRepositoryTest.class
+dao\CategoryRepositoryTest.class
+dao\SuppliersRepositoryTest.class
+dao\ProductsRepositoryTest.class
+utils\TestDataImporter.class
+dao\EmployeesRepositoryTest.class
+dao\OrdersRepositoryTest.class
+dao\RanksRepositoryTest.class

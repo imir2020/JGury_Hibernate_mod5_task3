@@ -6,21 +6,14 @@ import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
-public class EmployeeMapper implements Mapper<EmployeesDto, Employees> {
+public class EmployeeMapper {
     private static final EmployeeMapper INSTANCE = new EmployeeMapper();
-    @Override
+
     public EmployeesDto mapFrom(Employees employee) {
-        return EmployeesDto.builder()
-                .id(employee.getId())
-                .lastName(employee.getLastName())
-                .name(employee.getName())
-                .dateBirth(employee.getDateBirth())
-                .phoneNumber(employee.getPhoneNumber())
-                .rankId(employee.getRank().getId())
-                .build();
+        return EmployeeToDtoMapper.INSTANCE.employeesToDto(employee);
     }
 
-    public static EmployeeMapper getInstance(){
+    public static EmployeeMapper getInstance() {
         return INSTANCE;
     }
 }

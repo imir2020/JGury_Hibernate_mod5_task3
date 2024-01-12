@@ -11,7 +11,7 @@ import java.time.LocalDate;
 @Builder
 @Entity
 @Table(name = "sales")
-public class Sales {
+public class Sales implements BaseEntity<Long> {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

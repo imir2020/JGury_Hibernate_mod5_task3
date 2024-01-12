@@ -2,6 +2,7 @@ package entity;
 
 import javax.persistence.*;
 import lombok.*;
+import org.hibernate.annotations.Cascade;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -13,12 +14,12 @@ import java.util.List;
 @Builder
 @Entity
 @Table(name = "orders")
-public class Orders {
+public class Orders implements BaseEntity<Long> {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne()
+    @ManyToOne(cascade = CascadeType.REMOVE)
     @JoinColumn(name = "supplier_id")
     private Suppliers supplier;
 

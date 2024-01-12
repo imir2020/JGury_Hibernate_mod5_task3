@@ -1,8 +1,13 @@
 package dto;
 
 
+import javax.validation.constraints.NotEmpty;
+import javax.validation.constraints.NotNull;
 
-
-public record ProductDto(Long id, String nameAndCount) {
+public record ProductDto(
+        @NotNull
+        Long id,
+        @NotEmpty
+        String nameAndCount) {
 
 }

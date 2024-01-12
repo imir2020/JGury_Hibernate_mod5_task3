@@ -1,7 +1,5 @@
 package servlets;
 
-import dto.SuppliersDto;
-
 import service.SupplierService;
 import utils.JspHelper;
 

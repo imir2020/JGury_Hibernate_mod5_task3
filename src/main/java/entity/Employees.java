@@ -17,7 +17,7 @@ import java.time.LocalDate;
 @Table(name = "employees")
 @org.hibernate.annotations.Cache(usage = CacheConcurrencyStrategy.NONSTRICT_READ_WRITE,region = "Employees")
 @Audited
-public class Employees {
+public class Employees implements BaseEntity<Long> {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

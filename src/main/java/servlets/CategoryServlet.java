@@ -1,9 +1,5 @@
 package servlets;
 
-import dao.CategoryDao;
-import dto.CategoryDto;
-import entity.Category;
-
 import service.CategoryService;
 import utils.JspHelper;
 
@@ -13,9 +9,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.List;
 
 @WebServlet("/categories")
 public class CategoryServlet extends HttpServlet {

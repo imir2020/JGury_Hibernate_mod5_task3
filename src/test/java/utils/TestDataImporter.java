@@ -13,7 +13,7 @@ import java.time.LocalDate;
 public class TestDataImporter {
 
     public static void importData(SessionFactory sessionFactory) {
-        @Cleanup Session session= sessionFactory.openSession();
+        @Cleanup Session session = sessionFactory.openSession();
         session.beginTransaction();
         Category category1 = saveCategory(session, "Питьевая вода");
         Category category2 = saveCategory(session, "Конфеты");
@@ -21,8 +21,8 @@ public class TestDataImporter {
         Category category4 = saveCategory(session, "Unknown");
         Category category5 = saveCategory(session, "categoryName1");
 
-        Ranks rank1 = saveRank(session,Greid.MANAGER,80_000L);
-        Ranks rank2 = saveRank(session,Greid.EMPLOYEE,50_000L);
+        Ranks rank1 = saveRank(session, Greid.MANAGER, 80_000L);
+        Ranks rank2 = saveRank(session, Greid.EMPLOYEE, 50_000L);
 
 
         Suppliers supplierOne = saveSupplier(session, "Horns&&Hoofs", "Perm, commi 35", "horn@gmail.com",
@@ -38,37 +38,46 @@ public class TestDataImporter {
         saveUser(session, "Evgeniy", LocalDate.parse("1990-09-09"), "333", Status.ADMIN);
         saveUser(session, "Ivan", LocalDate.parse("1995-01-01"), "999", Status.ADMIN);
 
-        saveProduct(session, supplierOne, "Шоколад", 5000L, 150L, category2);
-        saveProduct(session, supplierOne, "horns", 700L, 100L, category1);
-        saveProduct(session, supplierThree, "Мясо", 125L, 500L, category3);
+        Products product1 = saveProduct(session, supplierOne, "Шоколад", 5000L, 150L, category2);
+        Products product2 = saveProduct(session, supplierOne, "horns", 700L, 100L, category1);
+        Products product3 = saveProduct(session, supplierThree, "Мясо", 125L, 500L, category3);
 
-        saveEmployee(session, "Ivanov", "Oleg", "Ivanovich", LocalDate.parse("1992-11-21"),
-                "8-911-432-89-61", "Moskow, Novyi Arbat 22, kv.2555",rank1);
-        saveEmployee(session, "Sergeev", "Kirill", "Antonovich", LocalDate.parse("1994-09-11"),
-                "8-925-444-89-17", "Moskow, Komissarov 125, kv.800",rank2);
-        saveEmployee(session, "Иванов", "Сергей", "Вадимович", LocalDate.parse("1990-05-17"),
-                "8-933-555-55-55", "Владивосток, Красная 54, кв.3421",rank1);
+        Employees employee1 = saveEmployee(session, "Ivanov", "Oleg", "Ivanovich", LocalDate.parse("1992-11-21"),
+                "8-911-432-89-61", "Moskow, Novyi Arbat 22, kv.2555", rank1);
+        Employees employee2 = saveEmployee(session, "Sergeev", "Kirill", "Antonovich", LocalDate.parse("1994-09-11"),
+                "8-925-444-89-17", "Moskow, Komissarov 125, kv.800", rank2);
+        Employees employee3 = saveEmployee(session, "Иванов", "Сергей", "Вадимович", LocalDate.parse("1990-05-17"),
+                "8-933-555-55-55", "Владивосток, Красная 54, кв.3421", rank1);
         saveEmployee(session, "TTT", "VVV", "FFF", LocalDate.parse("2011-01-01"),
-                "888", "RRR",rank2);
+                "888", "RRR", rank2);
         saveEmployee(session, "Filatov", "Evgeniy", "Vasilievich", LocalDate.parse("1994-12-02"),
-                "8(936)-512-38-74", "Ectb, Stroitiley 125, d 14, corp4, kv 98",rank1);
+                "8(936)-512-38-74", "Ectb, Stroitiley 125, d 14, corp4, kv 98", rank1);
         saveEmployee(session, "Tolstoy", "Lev", "Anatolievich", LocalDate.parse("1905-05-19"),
-                "8(977)-55538-55", "SPB",rank1);
+                "8(977)-55538-55", "SPB", rank1);
         saveEmployee(session, "Filatov", "Ivan", "Vasilievich", LocalDate.parse("1975-03-02"),
-                "8(936)-512-38-74", "Ectb, Stroitiley 125, d 14, corp4, kv 98",rank2);
+                "8(936)-512-38-74", "Ectb, Stroitiley 125, d 14, corp4, kv 98", rank2);
         saveEmployee(session, "Tunov", "Vadim", "Sadyikov", LocalDate.parse("1990-03-29"),
-                "8-992-456-91-00", "Vladivostok, veteranov 54,d 6,corp 9, kv 100",rank2);
+                "8-992-456-91-00", "Vladivostok, veteranov 54,d 6,corp 9, kv 100", rank2);
         saveEmployee(session, "Tunov", "Leonid", "Sadyikov", LocalDate.parse("1990-03-29"),
-                "8-992-555-10-00", "Vladivostok, veteranov 54,d 6,corp 9, kv 100",rank2);
+                "8-992-555-10-00", "Vladivostok, veteranov 54,d 6,corp 9, kv 100", rank2);
         saveEmployee(session, "Pletnev", "Dmitriy", "Olegovich", LocalDate.parse("1974-04-04"),
-                "8(936)-512-55-99", "MSO",rank2);
+                "8(936)-512-55-99", "MSO", rank2);
         saveEmployee(session, "Pletnev", "Dmitriy", "Olegovich", LocalDate.parse("1974-05-05"),
-                "8(936)-512-55-99", "MSO",rank2);
+                "8(936)-512-55-99", "MSO", rank2);
 
-        saveProduct(session,supplierOne,"Шоколад",1L,2L,category2);
-        saveProduct(session,supplierOne,"horns",1L,2L,category1);
-        saveProduct(session,supplierOne,"Мясо",1L,2L,category3);
-       session.getTransaction().commit();
+        saveProduct(session, supplierOne, "Шоколад", 1L, 2L, category2);
+        saveProduct(session, supplierOne, "horns", 1L, 2L, category1);
+        saveProduct(session, supplierOne, "Мясо", 1L, 2L, category3);
+
+        saveSales(session, product1,24L,employee1,LocalDate.parse("2022-05-22"));
+        saveSales(session, product2,125L,employee3,LocalDate.parse("2022-06-10"));
+        saveSales(session, product3,77L,employee2,LocalDate.parse("2022-07-11"));
+
+        saveOrder(session,supplierOne,"Шоколад", 200L,150L,LocalDate.parse("2022-04-12"));
+        saveOrder(session,supplierOne,"Мясо", 100L,350L,LocalDate.parse("2022-05-11"));
+        saveOrder(session,supplierOne,"Бутил. вода", 200L,150L,LocalDate.parse("2022-06-19"));
+
+        session.getTransaction().commit();
 
 
     }
@@ -145,75 +154,30 @@ public class TestDataImporter {
         return user;
     }
 
+    private static Sales saveSales(Session session, Products product,
+                                   Long count, Employees employee,
+                                   LocalDate dateSales) {
+        Sales sales = Sales.builder()
+                .product(product)
+                .count(count)
+                .employee(employee)
+                .dateSales(dateSales)
+                .build();
+        session.persist(sales);
+        return sales;
+    }
 
-//        Company microsoft = saveCompany(session, "Microsoft");
-//        Company apple = saveCompany(session, "Apple");
-//        Company google = saveCompany(session, "Google");
-//
-//        User billGates = saveUser(session, "Bill", "Gates",
-//                LocalDate.of(1955, Month.OCTOBER, 28), microsoft);
-//        User steveJobs = saveUser(session, "Steve", "Jobs",
-//                LocalDate.of(1955, Month.FEBRUARY, 24), apple);
-//        User sergeyBrin = saveUser(session, "Sergey", "Brin",
-//                LocalDate.of(1973, Month.AUGUST, 21), google);
-//        User timCook = saveUser(session, "Tim", "Cook",
-//                LocalDate.of(1960, Month.NOVEMBER, 1), apple);
-//        User dianeGreene = saveUser(session, "Diane", "Greene",
-//                LocalDate.of(1955, Month.JANUARY, 1), google);
-//
-//        savePayment(session, billGates, 100);
-//        savePayment(session, billGates, 300);
-//        savePayment(session, billGates, 500);
-//
-//        savePayment(session, steveJobs, 250);
-//        savePayment(session, steveJobs, 600);
-//        savePayment(session, steveJobs, 500);
-//
-//        savePayment(session, timCook, 400);
-//        savePayment(session, timCook, 300);
-//
-//        savePayment(session, sergeyBrin, 500);
-//        savePayment(session, sergeyBrin, 500);
-//        savePayment(session, sergeyBrin, 500);
-//
-//        savePayment(session, dianeGreene, 300);
-//        savePayment(session, dianeGreene, 300);
-//        savePayment(session, dianeGreene, 300);
-//    }
-//
-//    private Company saveCompany(Session session, String name) {
-//        Company company = Company.builder()
-//                .name(name)
-//                .build();
-//        session.save(company);
-//
-//        return company;
-//    }
-//
-//    private User saveUser(Session session,
-//                          String firstName,
-//                          String lastName,
-//                          LocalDate birthday,
-//                          Company company) {
-//        User user = User.builder()
-//                .username(firstName + lastName)
-//                .personalInfo(PersonalInfo.builder()
-//                        .firstname(firstName)
-//                        .lastname(lastName)
-//                        .birthDate(new Birthday(birthday))
-//                        .build())
-//                .company(company)
-//                .build();
-//        session.save(user);
-//
-//        return user;
-//    }
-//
-//    private void savePayment(Session session, User user, Integer amount) {
-//        Payment payment = Payment.builder()
-//                .receiver(user)
-//                .amount(amount)
-//                .build();
-//        session.save(payment);
-
+    private static Orders saveOrder(Session session, Suppliers suppliers,
+                                    String nameProduct, Long countProduct,
+                                    Long priceProduct, LocalDate dateOrder){
+        Orders order = Orders.builder()
+                .supplier(suppliers)
+                .nameProduct(nameProduct)
+                .countProduct(countProduct)
+                .priceProduct(priceProduct)
+                .dateOrder(dateOrder)
+                .build();
+        session.persist(order);
+        return order;
+    }
 }

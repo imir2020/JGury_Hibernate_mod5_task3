@@ -21,7 +21,7 @@ public class QRanks extends EntityPathBase<Ranks> {
 
     public final NumberPath<Long> id = createNumber("id", Long.class);
 
-    public final StringPath rankName = createString("rankName");
+    public final EnumPath<dao.Greid> rankName = createEnum("rankName", dao.Greid.class);
 
     public final NumberPath<Long> salary = createNumber("salary", Long.class);
 
